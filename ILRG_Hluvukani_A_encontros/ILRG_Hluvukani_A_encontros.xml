@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>ILRG Hluvukani A - Registrar Encontros Sensibilização</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-institutions-1">
+            <value>Autoridade Comunitária</value>
+          </text>
+          <text id="static_instance-institutions-0">
+            <value>Administração Distrital</value>
+          </text>
+          <text id="static_instance-institutions-3">
+            <value>Presidente da Localidade</value>
+          </text>
+          <text id="static_instance-institutions-2">
+            <value>Chefe do Posto</value>
+          </text>
+          <text id="static_instance-institutions-5">
+            <value>SDPI</value>
+          </text>
+          <text id="static_instance-institutions-4">
+            <value>SDAE</value>
+          </text>
+          <text id="static_instance-institutions-7">
+            <value>SPGC</value>
+          </text>
+          <text id="static_instance-institutions-6">
+            <value>Secretario do Bairro</value>
+          </text>
+          <text id="static_instance-institutions-8">
+            <value>Outra</value>
+          </text>
+          <text id="static_instance-blocks-4">
+            <value>Palmeira 3</value>
+          </text>
+          <text id="static_instance-blocks-5">
+            <value>Manhiça Municipality</value>
+          </text>
+          <text id="static_instance-blocks-6">
+            <value>Martins</value>
+          </text>
+          <text id="static_instance-blocks-7">
+            <value>Cambeve</value>
+          </text>
+          <text id="static_instance-blocks-0">
+            <value>Taninga North</value>
+          </text>
+          <text id="static_instance-blocks-1">
+            <value>Taninga South</value>
+          </text>
+          <text id="static_instance-blocks-2">
+            <value>Palmeira 1</value>
+          </text>
+          <text id="static_instance-blocks-3">
+            <value>Palmeira 2</value>
+          </text>
+          <text id="static_instance-participation-3">
+            <value>Fraco</value>
+          </text>
+          <text id="static_instance-blocks-8">
+            <value>Munguine North</value>
+          </text>
+          <text id="static_instance-blocks-9">
+            <value>Munguine South</value>
+          </text>
+          <text id="/ILRG_Hluvukani_A_encontros/Ag1/logo:label">
+            <value form="image">jr://images/usaid_hluv_logo.jpg</value>
+          </text>
+          <text id="static_instance-contents-6">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-contents-4">
+            <value>Recolha ou confirmação de dados da comunidade/povoado/beneficiários</value>
+          </text>
+          <text id="static_instance-names-0">
+            <value>Armando Junior Zuana</value>
+          </text>
+          <text id="static_instance-contents-2">
+            <value>Quadro legal de Terras</value>
+          </text>
+          <text id="static_instance-contents-3">
+            <value>Illovo e investimentos</value>
+          </text>
+          <text id="static_instance-contents-0">
+            <value>Apresentação do Projecto da Hluvukani e programa das actividades</value>
+          </text>
+          <text id="static_instance-contents-1">
+            <value>Género e vulnerabilidade</value>
+          </text>
+          <text id="static_instance-meetings-8">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-meetings-6">
+            <value>Encontro com Município</value>
+          </text>
+          <text id="static_instance-meetings-7">
+            <value>Encontro com Indivíduos</value>
+          </text>
+          <text id="static_instance-meetings-4">
+            <value>Encontro com Administração do Distrito</value>
+          </text>
+          <text id="static_instance-meetings-5">
+            <value>Encontro com Associações</value>
+          </text>
+          <text id="static_instance-meetings-2">
+            <value>Encontro com Liderança Tradicional</value>
+          </text>
+          <text id="static_instance-meetings-3">
+            <value>Encontro no Posto Administrativo</value>
+          </text>
+          <text id="static_instance-meetings-0">
+            <value>Encontro ao nível Comunitário/Região</value>
+          </text>
+          <text id="static_instance-meetings-1">
+            <value>Encontro ao nível de Bloco</value>
+          </text>
+          <text id="static_instance-blocks-10">
+            <value>Pateque Bobole</value>
+          </text>
+          <text id="static_instance-names-12">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-contents-5">
+            <value>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</value>
+          </text>
+          <text id="static_instance-names-11">
+            <value>Valdemiro Luis Mondlane</value>
+          </text>
+          <text id="static_instance-names-2">
+            <value>Carlos Eduardo Mujovo</value>
+          </text>
+          <text id="static_instance-names-7">
+            <value>Julio Fernando Manheia</value>
+          </text>
+          <text id="static_instance-names-6">
+            <value>Helena Benjamim Mondlane</value>
+          </text>
+          <text id="static_instance-names-5">
+            <value>Elton Salomao Munguambe</value>
+          </text>
+          <text id="static_instance-names-4">
+            <value>Efigencia Alberto Mavondza</value>
+          </text>
+          <text id="static_instance-names-3">
+            <value>Coronel Gelsio Timana</value>
+          </text>
+          <text id="static_instance-names-1">
+            <value>Cacilda Mothasse Jocicaze Xerinda</value>
+          </text>
+          <text id="static_instance-y_n-1">
+            <value>Não</value>
+          </text>
+          <text id="static_instance-y_n-0">
+            <value>Sim</value>
+          </text>
+          <text id="static_instance-regions-2">
+            <value>Sul</value>
+          </text>
+          <text id="static_instance-regions-0">
+            <value>Norte</value>
+          </text>
+          <text id="static_instance-regions-1">
+            <value>Central</value>
+          </text>
+          <text id="static_instance-participation-0">
+            <value>Muito alto</value>
+          </text>
+          <text id="static_instance-participation-1">
+            <value>Alto</value>
+          </text>
+          <text id="static_instance-names-9">
+            <value>Noniua Paudelina Luis</value>
+          </text>
+          <text id="static_instance-names-8">
+            <value>Nomisse Eugenio Sitoe</value>
+          </text>
+          <text id="static_instance-participation-4">
+            <value>Muito fraco</value>
+          </text>
+          <text id="static_instance-participation-2">
+            <value>Medio</value>
+          </text>
+          <text id="static_instance-names-10">
+            <value>Raquel Xavier Ambasse</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <ILRG_Hluvukani_A_encontros id="ILRG_Hluvukani_A" version="201902281">
+          <start/>
+          <deviceid/>
+          <my_form_name/>
+          <Ag1>
+            <logo/>
+            <cavateco/>
+          </Ag1>
+          <intronote/>
+          <tec_name/>
+          <Ag2>
+            <tec_given_name/>
+            <tec_family_name/>
+          </Ag2>
+          <date/>
+          <region_id/>
+          <block_id/>
+          <Ag3>
+            <number_female/>
+            <number_male/>
+          </Ag3>
+          <gov_y_n/>
+          <gov_names/>
+          <gov_other/>
+          <meet_type/>
+          <meet_other/>
+          <themes/>
+          <themes_other/>
+          <Ag4>
+            <participate_men/>
+            <participate_women/>
+            <participate_youth/>
+          </Ag4>
+          <meet_image/>
+          <point_meet/>
+          <obs/>
+          <end/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </ILRG_Hluvukani_A_encontros>
+      </instance>
+      <instance id="blocks">
+        <root>
+          <item>
+            <itextId>static_instance-blocks-0</itextId>
+            <region_id>RN</region_id>
+            <name>A</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-1</itextId>
+            <region_id>RN</region_id>
+            <name>B</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-2</itextId>
+            <region_id>RN</region_id>
+            <name>C</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-3</itextId>
+            <region_id>RN</region_id>
+            <name>D</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-4</itextId>
+            <region_id>RN</region_id>
+            <name>E</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-5</itextId>
+            <region_id>RC</region_id>
+            <name>F</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-6</itextId>
+            <region_id>RC</region_id>
+            <name>G</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-7</itextId>
+            <region_id>RC</region_id>
+            <name>H</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-8</itextId>
+            <region_id>RS</region_id>
+            <name>I</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-9</itextId>
+            <region_id>RS</region_id>
+            <name>J</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-10</itextId>
+            <region_id>RS</region_id>
+            <name>K</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="meetings">
+        <root>
+          <item>
+            <itextId>static_instance-meetings-0</itextId>
+            <name>meet_community</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-1</itextId>
+            <name>meet_block</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-2</itextId>
+            <name>meet_leaders</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-3</itextId>
+            <name>meet_post</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-4</itextId>
+            <name>meet_district</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-5</itextId>
+            <name>meet_assocs</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-6</itextId>
+            <name>meet_municipio</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-7</itextId>
+            <name>meet_individuals</name>
+          </item>
+          <item>
+            <itextId>static_instance-meetings-8</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="regions">
+        <root>
+          <item>
+            <itextId>static_instance-regions-0</itextId>
+            <name>RN</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-1</itextId>
+            <name>RC</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-2</itextId>
+            <name>RS</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="y_n">
+        <root>
+          <item>
+            <itextId>static_instance-y_n-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-y_n-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="names">
+        <root>
+          <item>
+            <itextId>static_instance-names-0</itextId>
+            <name>AJZ</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-1</itextId>
+            <name>CMJX</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-2</itextId>
+            <name>CEM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-3</itextId>
+            <name>CGT</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-4</itextId>
+            <name>EAM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-5</itextId>
+            <name>ESM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-6</itextId>
+            <name>HBM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-7</itextId>
+            <name>JFM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-8</itextId>
+            <name>NES</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-9</itextId>
+            <name>NPL</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-10</itextId>
+            <name>RXA</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-11</itextId>
+            <name>VLM</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-12</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="institutions">
+        <root>
+          <item>
+            <itextId>static_instance-institutions-0</itextId>
+            <name>district_admin</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-1</itextId>
+            <name>community_rep</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-2</itextId>
+            <name>post_admin</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-3</itextId>
+            <name>locality_admin</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-4</itextId>
+            <name>sdae</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-5</itextId>
+            <name>sdpi</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-6</itextId>
+            <name>bairro_admin</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-7</itextId>
+            <name>spgc</name>
+          </item>
+          <item>
+            <itextId>static_instance-institutions-8</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="contents">
+        <root>
+          <item>
+            <itextId>static_instance-contents-0</itextId>
+            <name>programme</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-1</itextId>
+            <name>gender</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-2</itextId>
+            <name>land_law</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-3</itextId>
+            <name>investments</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-4</itextId>
+            <name>data_collect</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-5</itextId>
+            <name>delimitation_parcels</name>
+          </item>
+          <item>
+            <itextId>static_instance-contents-6</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="participation">
+        <root>
+          <item>
+            <itextId>static_instance-participation-0</itextId>
+            <name>v_high</name>
+          </item>
+          <item>
+            <itextId>static_instance-participation-1</itextId>
+            <name>high</name>
+          </item>
+          <item>
+            <itextId>static_instance-participation-2</itextId>
+            <name>medium</name>
+          </item>
+          <item>
+            <itextId>static_instance-participation-3</itextId>
+            <name>low</name>
+          </item>
+          <item>
+            <itextId>static_instance-participation-4</itextId>
+            <name>v_low</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/ILRG_Hluvukani_A_encontros/start" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/ILRG_Hluvukani_A_encontros/deviceid" type="string"/>
+      <bind calculate="&quot;Formulario A - Registo de Encontros de Sensibilização&quot;" nodeset="/ILRG_Hluvukani_A_encontros/my_form_name" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag1/logo" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag1/cavateco" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/intronote" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/tec_name" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag2" relevant=" /ILRG_Hluvukani_A_encontros/tec_name ='other'"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_A_encontros/Ag2/tec_given_name" required="true()" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_A_encontros/Ag2/tec_family_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/date" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/region_id" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/block_id" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag3/number_female" required="true()" type="int"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag3/number_male" required="true()" type="int"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/gov_y_n" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/gov_names" relevant=" /ILRG_Hluvukani_A_encontros/gov_y_n  = 'yes'" required="true()" type="select"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos separados no texto não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_A_encontros/gov_other" relevant="selected( /ILRG_Hluvukani_A_encontros/gov_names , 'other')" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/meet_type" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos separados no texto não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_A_encontros/meet_other" relevant=" /ILRG_Hluvukani_A_encontros/meet_type  = 'other'" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/themes" required="true()" type="select"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos separados no texto não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_A_encontros/themes_other" relevant="selected( /ILRG_Hluvukani_A_encontros/themes , 'other')" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag4/participate_men" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag4/participate_women" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag4/participate_youth" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/meet_image" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_A_encontros/point_meet" required="true()" type="geopoint"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos separados no texto não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_A_encontros/obs" required="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ILRG_Hluvukani_A_encontros/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/ILRG_Hluvukani_A_encontros/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat('Meetings','_', /ILRG_Hluvukani_A_encontros/block_id )" nodeset="/ILRG_Hluvukani_A_encontros/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_A_encontros/Ag1">
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag1/logo">
+        <label ref="jr:itext('/ILRG_Hluvukani_A_encontros/Ag1/logo:label')"/>
+      </input>
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag1/cavateco">
+        <label>&lt;br/&gt; &lt;h1&gt;Projecto de Governação Integrada de Terra e Recursos&lt;/h1&gt;&lt;br/&gt; &lt;h2&gt;Uma iniciativa da USAID implementada pela Cooperativa Hluvukani Varimi Manhiça, Maragra Açucar SA e Terra Firma&lt;/h2&gt;&lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_A_encontros/my_form_name "/>&lt;/span&gt; &lt;br/&gt;</label>
+      </input>
+    </group>
+    <input ref="/ILRG_Hluvukani_A_encontros/intronote">
+      <label>&lt;br/&gt; &lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_A_encontros/my_form_name "/>&lt;/span&gt; &lt;br/&gt; Este formulário é utilizado para capturar informação sobre os encontros iniciais com as autoridades e beneficiários.
+
+Estes encontros podem ser com a liderança tradicional ou governamental, ou com membros da comunidade.
+
+Podem ser também encontros ao nível do posto administrativo ou distrito. 
+
+O formulário deve ser preenchido cada vez que haja um encontro. 
+
+Os encontros podem envolver actividades de: 
+- divulgação das legislações 
+- descrição das actividades do Projecto de Hluvukani 
+- recolha de dados básicos 
+- sensibilização sobre o processo de identificação e certificação dos RDUATs 
+- discussão sobre Illovo e outros investimentos 
+
+O técnico pode usar o formulário para gravar informação sobre a data e lugar do encontro, o numero de participantes e os temas abordados. 
+
+Por favor deslizar para a frente para continuar.</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/tec_name">
+      <label>Nome do(s) técnico(s):</label>
+      <item>
+        <label>Armando Junior Zuana</label>
+        <value>AJZ</value>
+      </item>
+      <item>
+        <label>Cacilda Mothasse Jocicaze Xerinda</label>
+        <value>CMJX</value>
+      </item>
+      <item>
+        <label>Carlos Eduardo Mujovo</label>
+        <value>CEM</value>
+      </item>
+      <item>
+        <label>Coronel Gelsio Timana</label>
+        <value>CGT</value>
+      </item>
+      <item>
+        <label>Efigencia Alberto Mavondza</label>
+        <value>EAM</value>
+      </item>
+      <item>
+        <label>Elton Salomao Munguambe</label>
+        <value>ESM</value>
+      </item>
+      <item>
+        <label>Helena Benjamim Mondlane</label>
+        <value>HBM</value>
+      </item>
+      <item>
+        <label>Julio Fernando Manheia</label>
+        <value>JFM</value>
+      </item>
+      <item>
+        <label>Nomisse Eugenio Sitoe</label>
+        <value>NES</value>
+      </item>
+      <item>
+        <label>Noniua Paudelina Luis</label>
+        <value>NPL</value>
+      </item>
+      <item>
+        <label>Raquel Xavier Ambasse</label>
+        <value>RXA</value>
+      </item>
+      <item>
+        <label>Valdemiro Luis Mondlane</label>
+        <value>VLM</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_A_encontros/Ag2">
+      <label>Novo nome do(a) técnico(a):</label>
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag2/tec_given_name">
+        <label>Escreve o seu nome se não apareceu na lista</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag2/tec_family_name">
+        <label>Escreve o seu apelido se não apareceu na lista</label>
+      </input>
+    </group>
+    <input appearance="no-calendar" ref="/ILRG_Hluvukani_A_encontros/date">
+      <label>Data do encontro:</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/region_id">
+      <label>Selecionar a região (Norte, Central ou Sul)</label>
+      <item>
+        <label>Norte</label>
+        <value>RN</value>
+      </item>
+      <item>
+        <label>Central</label>
+        <value>RC</value>
+      </item>
+      <item>
+        <label>Sul</label>
+        <value>RS</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/block_id">
+      <label>Selecionar o bloco</label>
+      <itemset nodeset="instance('blocks')/root/item[region_id= /ILRG_Hluvukani_A_encontros/region_id ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_A_encontros/Ag3">
+      <label>Participantes</label>
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag3/number_female">
+        <label>Número de mulheres:</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_A_encontros/Ag3/number_male">
+        <label>Número de homens:</label>
+      </input>
+    </group>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/gov_y_n">
+      <label>Participaram representantes do governo?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/gov_names">
+      <label>Instituição do governo representada:</label>
+      <item>
+        <label>Administração Distrital</label>
+        <value>district_admin</value>
+      </item>
+      <item>
+        <label>Autoridade Comunitária</label>
+        <value>community_rep</value>
+      </item>
+      <item>
+        <label>Chefe do Posto</label>
+        <value>post_admin</value>
+      </item>
+      <item>
+        <label>Presidente da Localidade</label>
+        <value>locality_admin</value>
+      </item>
+      <item>
+        <label>SDAE</label>
+        <value>sdae</value>
+      </item>
+      <item>
+        <label>SDPI</label>
+        <value>sdpi</value>
+      </item>
+      <item>
+        <label>Secretario do Bairro</label>
+        <value>bairro_admin</value>
+      </item>
+      <item>
+        <label>SPGC</label>
+        <value>spgc</value>
+      </item>
+      <item>
+        <label>Outra</label>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/ILRG_Hluvukani_A_encontros/gov_other">
+      <label>Qual é a outra instituição do governo?</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/meet_type">
+      <label>Que tipo de encontro?</label>
+      <item>
+        <label>Encontro ao nível Comunitário/Região</label>
+        <value>meet_community</value>
+      </item>
+      <item>
+        <label>Encontro ao nível de Bloco</label>
+        <value>meet_block</value>
+      </item>
+      <item>
+        <label>Encontro com Liderança Tradicional</label>
+        <value>meet_leaders</value>
+      </item>
+      <item>
+        <label>Encontro no Posto Administrativo</label>
+        <value>meet_post</value>
+      </item>
+      <item>
+        <label>Encontro com Administração do Distrito</label>
+        <value>meet_district</value>
+      </item>
+      <item>
+        <label>Encontro com Associações</label>
+        <value>meet_assocs</value>
+      </item>
+      <item>
+        <label>Encontro com Município</label>
+        <value>meet_municipio</value>
+      </item>
+      <item>
+        <label>Encontro com Indivíduos</label>
+        <value>meet_individuals</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/ILRG_Hluvukani_A_encontros/meet_other">
+      <label>Outro tipo de encontro?</label>
+    </input>
+    <select appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/themes">
+      <label>Tema(s) ou assunto(s) abordado(s)?</label>
+      <item>
+        <label>Apresentação do Projecto da Hluvukani e programa das actividades</label>
+        <value>programme</value>
+      </item>
+      <item>
+        <label>Género e vulnerabilidade</label>
+        <value>gender</value>
+      </item>
+      <item>
+        <label>Quadro legal de Terras</label>
+        <value>land_law</value>
+      </item>
+      <item>
+        <label>Illovo e investimentos</label>
+        <value>investments</value>
+      </item>
+      <item>
+        <label>Recolha ou confirmação de dados da comunidade/povoado/beneficiários</label>
+        <value>data_collect</value>
+      </item>
+      <item>
+        <label>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</label>
+        <value>delimitation_parcels</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/ILRG_Hluvukani_A_encontros/themes_other">
+      <label>Outro(s) tema(s) ou assunto(s) abordados?</label>
+    </input>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_A_encontros/Ag4">
+      <label>Participação</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/Ag4/participate_men">
+        <label>Como caracteriza o nível da participação pelos homens?</label>
+        <item>
+          <label>Muito alto</label>
+          <value>v_high</value>
+        </item>
+        <item>
+          <label>Alto</label>
+          <value>high</value>
+        </item>
+        <item>
+          <label>Medio</label>
+          <value>medium</value>
+        </item>
+        <item>
+          <label>Fraco</label>
+          <value>low</value>
+        </item>
+        <item>
+          <label>Muito fraco</label>
+          <value>v_low</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/Ag4/participate_women">
+        <label>Como caracteriza o nível da participação pelas mulheres?</label>
+        <item>
+          <label>Muito alto</label>
+          <value>v_high</value>
+        </item>
+        <item>
+          <label>Alto</label>
+          <value>high</value>
+        </item>
+        <item>
+          <label>Medio</label>
+          <value>medium</value>
+        </item>
+        <item>
+          <label>Fraco</label>
+          <value>low</value>
+        </item>
+        <item>
+          <label>Muito fraco</label>
+          <value>v_low</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/Ag4/participate_youth">
+        <label>Como caracteriza o nível da participação pelos jovens?</label>
+        <item>
+          <label>Muito alto</label>
+          <value>v_high</value>
+        </item>
+        <item>
+          <label>Alto</label>
+          <value>high</value>
+        </item>
+        <item>
+          <label>Medio</label>
+          <value>medium</value>
+        </item>
+        <item>
+          <label>Fraco</label>
+          <value>low</value>
+        </item>
+        <item>
+          <label>Muito fraco</label>
+          <value>v_low</value>
+        </item>
+      </select1>
+    </group>
+    <upload mediatype="image/*" ref="/ILRG_Hluvukani_A_encontros/meet_image">
+      <label>Tire uma fotografia do encontro</label>
+    </upload>
+    <input ref="/ILRG_Hluvukani_A_encontros/point_meet">
+      <label>Captura das coordenadas GPS do encontro</label>
+      <hint>Lembrete: se a 'gravar localização' está levando algum tempo, por favor, verifique se a luz azul do seu Glo está ligada</hint>
+    </input>
+    <input ref="/ILRG_Hluvukani_A_encontros/obs">
+      <label>Observações sobre o encontro:</label>
+    </input>
+  </h:body>
+</h:html>
