@@ -32,6 +32,9 @@
           <text id="static_instance-institutions-8">
             <value>Outra</value>
           </text>
+          <text id="static_instance-participation-2">
+            <value>Medio</value>
+          </text>
           <text id="static_instance-blocks-4">
             <value>Palmeira 3</value>
           </text>
@@ -75,7 +78,7 @@
             <value>Recolha ou confirmação de dados da comunidade/povoado/beneficiários</value>
           </text>
           <text id="static_instance-names-0">
-            <value>Armando Junior Zuana</value>
+            <value>Armando Zuana</value>
           </text>
           <text id="static_instance-contents-2">
             <value>Quadro legal de Terras</value>
@@ -119,35 +122,38 @@
           <text id="static_instance-blocks-10">
             <value>Pateque Bobole</value>
           </text>
+          <text id="static_instance-names-13">
+            <value>Ossifo Pinto</value>
+          </text>
           <text id="static_instance-names-12">
+            <value>Julio Manheia</value>
+          </text>
+          <text id="static_instance-names-16">
             <value>Outro</value>
           </text>
-          <text id="static_instance-contents-5">
-            <value>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</value>
-          </text>
           <text id="static_instance-names-11">
-            <value>Valdemiro Luis Mondlane</value>
+            <value>Irene Timane</value>
           </text>
           <text id="static_instance-names-2">
-            <value>Carlos Eduardo Mujovo</value>
+            <value>Carlos Munjovo</value>
           </text>
           <text id="static_instance-names-7">
-            <value>Julio Fernando Manheia</value>
+            <value>Gercia A.Mabunda</value>
           </text>
           <text id="static_instance-names-6">
-            <value>Helena Benjamim Mondlane</value>
+            <value>Ester Matlombe</value>
           </text>
           <text id="static_instance-names-5">
-            <value>Elton Salomao Munguambe</value>
+            <value>Efigencia Alberto</value>
           </text>
           <text id="static_instance-names-4">
-            <value>Efigencia Alberto Mavondza</value>
+            <value>Edson Adozinda</value>
           </text>
           <text id="static_instance-names-3">
-            <value>Coronel Gelsio Timana</value>
+            <value>Edmilson Momade</value>
           </text>
           <text id="static_instance-names-1">
-            <value>Cacilda Mothasse Jocicaze Xerinda</value>
+            <value>Boaventura Jovo</value>
           </text>
           <text id="static_instance-y_n-1">
             <value>Não</value>
@@ -171,19 +177,25 @@
             <value>Alto</value>
           </text>
           <text id="static_instance-names-9">
-            <value>Noniua Paudelina Luis</value>
+            <value>Helena Bila</value>
           </text>
           <text id="static_instance-names-8">
-            <value>Nomisse Eugenio Sitoe</value>
+            <value>Guilherme Nhacundela</value>
           </text>
           <text id="static_instance-participation-4">
             <value>Muito fraco</value>
           </text>
-          <text id="static_instance-participation-2">
-            <value>Medio</value>
+          <text id="static_instance-contents-5">
+            <value>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</value>
+          </text>
+          <text id="static_instance-names-15">
+            <value>Sandra Dimande</value>
           </text>
           <text id="static_instance-names-10">
-            <value>Raquel Xavier Ambasse</value>
+            <value>Herondina Timane</value>
+          </text>
+          <text id="static_instance-names-14">
+            <value>Raquel Ambasse</value>
           </text>
         </translation>
       </itext>
@@ -318,7 +330,7 @@
           </item>
           <item>
             <itextId>static_instance-meetings-6</itextId>
-            <name>meet_municipio</name>
+            <name>meet_municipality</name>
           </item>
           <item>
             <itextId>static_instance-meetings-7</itextId>
@@ -362,54 +374,70 @@
         <root>
           <item>
             <itextId>static_instance-names-0</itextId>
-            <name>AJZ</name>
+            <name>Armando_Zuana</name>
           </item>
           <item>
             <itextId>static_instance-names-1</itextId>
-            <name>CMJX</name>
+            <name>Boaventura_Jovo</name>
           </item>
           <item>
             <itextId>static_instance-names-2</itextId>
-            <name>CEM</name>
+            <name>Carlos_Munjovo</name>
           </item>
           <item>
             <itextId>static_instance-names-3</itextId>
-            <name>CGT</name>
+            <name>Edmilson_Momade</name>
           </item>
           <item>
             <itextId>static_instance-names-4</itextId>
-            <name>EAM</name>
+            <name>Edson_Adozinda</name>
           </item>
           <item>
             <itextId>static_instance-names-5</itextId>
-            <name>ESM</name>
+            <name>Efigencia_Alberto</name>
           </item>
           <item>
             <itextId>static_instance-names-6</itextId>
-            <name>HBM</name>
+            <name>Ester_Matlombe</name>
           </item>
           <item>
             <itextId>static_instance-names-7</itextId>
-            <name>JFM</name>
+            <name>Gercia_A.Mabunda</name>
           </item>
           <item>
             <itextId>static_instance-names-8</itextId>
-            <name>NES</name>
+            <name>Guilherme_Nhacundela</name>
           </item>
           <item>
             <itextId>static_instance-names-9</itextId>
-            <name>NPL</name>
+            <name>Helena_Bila</name>
           </item>
           <item>
             <itextId>static_instance-names-10</itextId>
-            <name>RXA</name>
+            <name>Herondina_Timane</name>
           </item>
           <item>
             <itextId>static_instance-names-11</itextId>
-            <name>VLM</name>
+            <name>Irene_Timane</name>
           </item>
           <item>
             <itextId>static_instance-names-12</itextId>
+            <name>Julio_Manheia</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-13</itextId>
+            <name>Ossifo_Pinto</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-14</itextId>
+            <name>Raquel_Ambasse</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-15</itextId>
+            <name>Sandra_Dimande</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-16</itextId>
             <name>other</name>
           </item>
         </root>
@@ -575,52 +603,68 @@ Por favor deslizar para a frente para continuar.</label>
     <select1 appearance="minimal" ref="/ILRG_Hluvukani_A_encontros/tec_name">
       <label>Nome do(s) técnico(s):</label>
       <item>
-        <label>Armando Junior Zuana</label>
-        <value>AJZ</value>
+        <label>Armando Zuana</label>
+        <value>Armando_Zuana</value>
       </item>
       <item>
-        <label>Cacilda Mothasse Jocicaze Xerinda</label>
-        <value>CMJX</value>
+        <label>Boaventura Jovo</label>
+        <value>Boaventura_Jovo</value>
       </item>
       <item>
-        <label>Carlos Eduardo Mujovo</label>
-        <value>CEM</value>
+        <label>Carlos Munjovo</label>
+        <value>Carlos_Munjovo</value>
       </item>
       <item>
-        <label>Coronel Gelsio Timana</label>
-        <value>CGT</value>
+        <label>Edmilson Momade</label>
+        <value>Edmilson_Momade</value>
       </item>
       <item>
-        <label>Efigencia Alberto Mavondza</label>
-        <value>EAM</value>
+        <label>Edson Adozinda</label>
+        <value>Edson_Adozinda</value>
       </item>
       <item>
-        <label>Elton Salomao Munguambe</label>
-        <value>ESM</value>
+        <label>Efigencia Alberto</label>
+        <value>Efigencia_Alberto</value>
       </item>
       <item>
-        <label>Helena Benjamim Mondlane</label>
-        <value>HBM</value>
+        <label>Ester Matlombe</label>
+        <value>Ester_Matlombe</value>
       </item>
       <item>
-        <label>Julio Fernando Manheia</label>
-        <value>JFM</value>
+        <label>Gercia A.Mabunda</label>
+        <value>Gercia_A.Mabunda</value>
       </item>
       <item>
-        <label>Nomisse Eugenio Sitoe</label>
-        <value>NES</value>
+        <label>Guilherme Nhacundela</label>
+        <value>Guilherme_Nhacundela</value>
       </item>
       <item>
-        <label>Noniua Paudelina Luis</label>
-        <value>NPL</value>
+        <label>Helena Bila</label>
+        <value>Helena_Bila</value>
       </item>
       <item>
-        <label>Raquel Xavier Ambasse</label>
-        <value>RXA</value>
+        <label>Herondina Timane</label>
+        <value>Herondina_Timane</value>
       </item>
       <item>
-        <label>Valdemiro Luis Mondlane</label>
-        <value>VLM</value>
+        <label>Irene Timane</label>
+        <value>Irene_Timane</value>
+      </item>
+      <item>
+        <label>Julio Manheia</label>
+        <value>Julio_Manheia</value>
+      </item>
+      <item>
+        <label>Ossifo Pinto</label>
+        <value>Ossifo_Pinto</value>
+      </item>
+      <item>
+        <label>Raquel Ambasse</label>
+        <value>Raquel_Ambasse</value>
+      </item>
+      <item>
+        <label>Sandra Dimande</label>
+        <value>Sandra_Dimande</value>
       </item>
       <item>
         <label>Outro</label>
@@ -751,7 +795,7 @@ Por favor deslizar para a frente para continuar.</label>
       </item>
       <item>
         <label>Encontro com Município</label>
-        <value>meet_municipio</value>
+        <value>meet_municipality</value>
       </item>
       <item>
         <label>Encontro com Indivíduos</label>
