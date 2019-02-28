@@ -188,7 +188,7 @@
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_A_encontros id="ILRG_Hluvukani_A" version="201902281">
+        <ILRG_Hluvukani_A_encontros id="ILRG_Hluvukani_A" version="201902282">
           <start/>
           <deviceid/>
           <my_form_name/>
@@ -512,7 +512,7 @@
       </instance>
       <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/ILRG_Hluvukani_A_encontros/start" type="dateTime"/>
       <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/ILRG_Hluvukani_A_encontros/deviceid" type="string"/>
-      <bind calculate="&quot;Formulario A - Registo de Encontros de Sensibilização&quot;" nodeset="/ILRG_Hluvukani_A_encontros/my_form_name" type="string"/>
+      <bind calculate="&quot;Formulário A - Registo de Encontros de Sensibilização&quot;" nodeset="/ILRG_Hluvukani_A_encontros/my_form_name" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag1/logo" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_A_encontros/Ag1/cavateco" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_A_encontros/intronote" readonly="true()" type="string"/>
@@ -540,7 +540,7 @@
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos separados no texto não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_A_encontros/obs" required="true()" type="string"/>
       <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ILRG_Hluvukani_A_encontros/end" type="dateTime"/>
       <bind calculate="concat('uuid:', uuid())" nodeset="/ILRG_Hluvukani_A_encontros/meta/instanceID" readonly="true()" type="string"/>
-      <bind calculate="concat('Meetings','_', /ILRG_Hluvukani_A_encontros/block_id )" nodeset="/ILRG_Hluvukani_A_encontros/meta/instanceName" type="string"/>
+      <bind calculate="concat('Meetings','_', /ILRG_Hluvukani_A_encontros/block_id ,'_', /ILRG_Hluvukani_A_encontros/date )" nodeset="/ILRG_Hluvukani_A_encontros/meta/instanceName" type="string"/>
     </model>
   </h:head>
   <h:body>
