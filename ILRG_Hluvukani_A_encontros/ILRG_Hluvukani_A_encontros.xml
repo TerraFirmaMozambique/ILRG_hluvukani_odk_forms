@@ -32,11 +32,8 @@
           <text id="static_instance-institutions-8">
             <value>Outra</value>
           </text>
-          <text id="static_instance-participation-2">
-            <value>Medio</value>
-          </text>
           <text id="static_instance-blocks-4">
-            <value>Palmeira 3</value>
+            <value>Palmeira Sul</value>
           </text>
           <text id="static_instance-blocks-5">
             <value>Manhiça Municipality</value>
@@ -54,10 +51,10 @@
             <value>Taninga South</value>
           </text>
           <text id="static_instance-blocks-2">
-            <value>Palmeira 1</value>
+            <value>Palmeira Norte</value>
           </text>
           <text id="static_instance-blocks-3">
-            <value>Palmeira 2</value>
+            <value>Palmeira Centro</value>
           </text>
           <text id="static_instance-participation-3">
             <value>Fraco</value>
@@ -67,9 +64,6 @@
           </text>
           <text id="static_instance-blocks-9">
             <value>Munguine South</value>
-          </text>
-          <text id="/ILRG_Hluvukani_A_encontros/Ag1/logo:label">
-            <value form="image">jr://images/usaid_hluv_logo.jpg</value>
           </text>
           <text id="static_instance-contents-6">
             <value>Outro</value>
@@ -122,35 +116,29 @@
           <text id="static_instance-blocks-10">
             <value>Pateque Bobole</value>
           </text>
-          <text id="static_instance-names-13">
-            <value>Ossifo Pinto</value>
+          <text id="static_instance-contents-5">
+            <value>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</value>
           </text>
-          <text id="static_instance-names-12">
-            <value>Julio Manheia</value>
-          </text>
-          <text id="static_instance-names-16">
-            <value>Outro</value>
-          </text>
-          <text id="static_instance-names-11">
-            <value>Irene Timane</value>
+          <text id="/ILRG_Hluvukani_A_encontros/Ag1/logo:label">
+            <value form="image">jr://images/usaid_hluv_logo.jpg</value>
           </text>
           <text id="static_instance-names-2">
-            <value>Carlos Munjovo</value>
+            <value>Carlos Mujovo</value>
           </text>
           <text id="static_instance-names-7">
-            <value>Gercia A.Mabunda</value>
+            <value>Irene Timana</value>
           </text>
           <text id="static_instance-names-6">
-            <value>Ester Matlombe</value>
+            <value>Helena Bila</value>
           </text>
           <text id="static_instance-names-5">
-            <value>Efigencia Alberto</value>
+            <value>Gercia Mabunda</value>
           </text>
           <text id="static_instance-names-4">
-            <value>Edson Adozinda</value>
+            <value>Efigencia Mavondza</value>
           </text>
           <text id="static_instance-names-3">
-            <value>Edmilson Momade</value>
+            <value>Edson Ernesto</value>
           </text>
           <text id="static_instance-names-1">
             <value>Boaventura Jovo</value>
@@ -177,30 +165,24 @@
             <value>Alto</value>
           </text>
           <text id="static_instance-names-9">
-            <value>Helena Bila</value>
+            <value>Raquel Ambasse</value>
           </text>
           <text id="static_instance-names-8">
-            <value>Guilherme Nhacundela</value>
+            <value>Julio Manheia</value>
           </text>
           <text id="static_instance-participation-4">
             <value>Muito fraco</value>
           </text>
-          <text id="static_instance-contents-5">
-            <value>Informação sobre o registo de pessoas e identificação de ocupação (RDUATs)</value>
-          </text>
-          <text id="static_instance-names-15">
-            <value>Sandra Dimande</value>
+          <text id="static_instance-participation-2">
+            <value>Medio</value>
           </text>
           <text id="static_instance-names-10">
-            <value>Herondina Timane</value>
-          </text>
-          <text id="static_instance-names-14">
-            <value>Raquel Ambasse</value>
+            <value>Outro</value>
           </text>
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_A_encontros id="ILRG_Hluvukani_A" version="201902282">
+        <ILRG_Hluvukani_A_encontros id="ILRG_Hluvukani_A" version="201903081">
           <start/>
           <deviceid/>
           <my_form_name/>
@@ -382,62 +364,38 @@
           </item>
           <item>
             <itextId>static_instance-names-2</itextId>
-            <name>Carlos_Munjovo</name>
+            <name>Carlos_Mujovo</name>
           </item>
           <item>
             <itextId>static_instance-names-3</itextId>
-            <name>Edmilson_Momade</name>
+            <name>Edson_Ernesto</name>
           </item>
           <item>
             <itextId>static_instance-names-4</itextId>
-            <name>Edson_Adozinda</name>
+            <name>Efigencia_Mavondza</name>
           </item>
           <item>
             <itextId>static_instance-names-5</itextId>
-            <name>Efigencia_Alberto</name>
+            <name>Gercia_Mabunda</name>
           </item>
           <item>
             <itextId>static_instance-names-6</itextId>
-            <name>Ester_Matlombe</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-7</itextId>
-            <name>Gercia_A.Mabunda</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-8</itextId>
-            <name>Guilherme_Nhacundela</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-9</itextId>
             <name>Helena_Bila</name>
           </item>
           <item>
-            <itextId>static_instance-names-10</itextId>
-            <name>Herondina_Timane</name>
+            <itextId>static_instance-names-7</itextId>
+            <name>Irene_Timana</name>
           </item>
           <item>
-            <itextId>static_instance-names-11</itextId>
-            <name>Irene_Timane</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-12</itextId>
+            <itextId>static_instance-names-8</itextId>
             <name>Julio_Manheia</name>
           </item>
           <item>
-            <itextId>static_instance-names-13</itextId>
-            <name>Ossifo_Pinto</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-14</itextId>
+            <itextId>static_instance-names-9</itextId>
             <name>Raquel_Ambasse</name>
           </item>
           <item>
-            <itextId>static_instance-names-15</itextId>
-            <name>Sandra_Dimande</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-16</itextId>
+            <itextId>static_instance-names-10</itextId>
             <name>other</name>
           </item>
         </root>
@@ -611,60 +569,36 @@ Por favor deslizar para a frente para continuar.</label>
         <value>Boaventura_Jovo</value>
       </item>
       <item>
-        <label>Carlos Munjovo</label>
-        <value>Carlos_Munjovo</value>
+        <label>Carlos Mujovo</label>
+        <value>Carlos_Mujovo</value>
       </item>
       <item>
-        <label>Edmilson Momade</label>
-        <value>Edmilson_Momade</value>
+        <label>Edson Ernesto</label>
+        <value>Edson_Ernesto</value>
       </item>
       <item>
-        <label>Edson Adozinda</label>
-        <value>Edson_Adozinda</value>
+        <label>Efigencia Mavondza</label>
+        <value>Efigencia_Mavondza</value>
       </item>
       <item>
-        <label>Efigencia Alberto</label>
-        <value>Efigencia_Alberto</value>
-      </item>
-      <item>
-        <label>Ester Matlombe</label>
-        <value>Ester_Matlombe</value>
-      </item>
-      <item>
-        <label>Gercia A.Mabunda</label>
-        <value>Gercia_A.Mabunda</value>
-      </item>
-      <item>
-        <label>Guilherme Nhacundela</label>
-        <value>Guilherme_Nhacundela</value>
+        <label>Gercia Mabunda</label>
+        <value>Gercia_Mabunda</value>
       </item>
       <item>
         <label>Helena Bila</label>
         <value>Helena_Bila</value>
       </item>
       <item>
-        <label>Herondina Timane</label>
-        <value>Herondina_Timane</value>
-      </item>
-      <item>
-        <label>Irene Timane</label>
-        <value>Irene_Timane</value>
+        <label>Irene Timana</label>
+        <value>Irene_Timana</value>
       </item>
       <item>
         <label>Julio Manheia</label>
         <value>Julio_Manheia</value>
       </item>
       <item>
-        <label>Ossifo Pinto</label>
-        <value>Ossifo_Pinto</value>
-      </item>
-      <item>
         <label>Raquel Ambasse</label>
         <value>Raquel_Ambasse</value>
-      </item>
-      <item>
-        <label>Sandra Dimande</label>
-        <value>Sandra_Dimande</value>
       </item>
       <item>
         <label>Outro</label>

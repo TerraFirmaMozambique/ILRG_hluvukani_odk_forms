@@ -9,7 +9,7 @@
             <value form="image">jr://images/usaid_hluv_logo.jpg</value>
           </text>
           <text id="static_instance-blocks-4">
-            <value>Palmeira 3</value>
+            <value>Palmeira Sul</value>
           </text>
           <text id="static_instance-blocks-5">
             <value>Manhiça Municipality</value>
@@ -27,10 +27,10 @@
             <value>Taninga South</value>
           </text>
           <text id="static_instance-blocks-2">
-            <value>Palmeira 1</value>
+            <value>Palmeira Norte</value>
           </text>
           <text id="static_instance-blocks-3">
-            <value>Palmeira 2</value>
+            <value>Palmeira Centro</value>
           </text>
           <text id="static_instance-blocks-8">
             <value>Munguine North</value>
@@ -44,26 +44,8 @@
           <text id="static_instance-activities-2">
             <value>Registo de parcelas</value>
           </text>
-          <text id="static_instance-names-13">
-            <value>Ossifo Pinto</value>
-          </text>
-          <text id="static_instance-names-12">
-            <value>Julio Manheia</value>
-          </text>
-          <text id="static_instance-names-11">
-            <value>Irene Timane</value>
-          </text>
           <text id="static_instance-names-10">
-            <value>Herondina Timane</value>
-          </text>
-          <text id="static_instance-names-16">
             <value>Outro</value>
-          </text>
-          <text id="static_instance-names-15">
-            <value>Sandra Dimande</value>
-          </text>
-          <text id="static_instance-names-14">
-            <value>Raquel Ambasse</value>
           </text>
           <text id="static_instance-blocks-10">
             <value>Pateque Bobole</value>
@@ -84,22 +66,22 @@
             <value>Encontros ou outras actividades internos</value>
           </text>
           <text id="static_instance-names-2">
-            <value>Carlos Munjovo</value>
+            <value>Carlos Mujovo</value>
           </text>
           <text id="static_instance-names-7">
-            <value>Gercia A.Mabunda</value>
+            <value>Irene Timana</value>
           </text>
           <text id="static_instance-names-6">
-            <value>Ester Matlombe</value>
+            <value>Helena Bila</value>
           </text>
           <text id="static_instance-names-5">
-            <value>Efigencia Alberto</value>
+            <value>Gercia Mabunda</value>
           </text>
           <text id="static_instance-names-4">
-            <value>Edson Adozinda</value>
+            <value>Efigencia Mavondza</value>
           </text>
           <text id="static_instance-names-3">
-            <value>Edmilson Momade</value>
+            <value>Edson Ernesto</value>
           </text>
           <text id="static_instance-y_n-1">
             <value>Não</value>
@@ -123,15 +105,15 @@
             <value>Central</value>
           </text>
           <text id="static_instance-names-9">
-            <value>Helena Bila</value>
+            <value>Raquel Ambasse</value>
           </text>
           <text id="static_instance-names-8">
-            <value>Guilherme Nhacundela</value>
+            <value>Julio Manheia</value>
           </text>
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_D_registo_horas id="ILRG_Hluvukani_D" version="201902283">
+        <ILRG_Hluvukani_D_registo_horas id="ILRG_Hluvukani_D" version="201903081">
           <start/>
           <deviceid/>
           <my_form_name/>
@@ -270,62 +252,38 @@
           </item>
           <item>
             <itextId>static_instance-names-2</itextId>
-            <name>Carlos_Munjovo</name>
+            <name>Carlos_Mujovo</name>
           </item>
           <item>
             <itextId>static_instance-names-3</itextId>
-            <name>Edmilson_Momade</name>
+            <name>Edson_Ernesto</name>
           </item>
           <item>
             <itextId>static_instance-names-4</itextId>
-            <name>Edson_Adozinda</name>
+            <name>Efigencia_Mavondza</name>
           </item>
           <item>
             <itextId>static_instance-names-5</itextId>
-            <name>Efigencia_Alberto</name>
+            <name>Gercia_Mabunda</name>
           </item>
           <item>
             <itextId>static_instance-names-6</itextId>
-            <name>Ester_Matlombe</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-7</itextId>
-            <name>Gercia_A.Mabunda</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-8</itextId>
-            <name>Guilherme_Nhacundela</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-9</itextId>
             <name>Helena_Bila</name>
           </item>
           <item>
-            <itextId>static_instance-names-10</itextId>
-            <name>Herondina_Timane</name>
+            <itextId>static_instance-names-7</itextId>
+            <name>Irene_Timana</name>
           </item>
           <item>
-            <itextId>static_instance-names-11</itextId>
-            <name>Irene_Timane</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-12</itextId>
+            <itextId>static_instance-names-8</itextId>
             <name>Julio_Manheia</name>
           </item>
           <item>
-            <itextId>static_instance-names-13</itextId>
-            <name>Ossifo_Pinto</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-14</itextId>
+            <itextId>static_instance-names-9</itextId>
             <name>Raquel_Ambasse</name>
           </item>
           <item>
-            <itextId>static_instance-names-15</itextId>
-            <name>Sandra_Dimande</name>
-          </item>
-          <item>
-            <itextId>static_instance-names-16</itextId>
+            <itextId>static_instance-names-10</itextId>
             <name>other</name>
           </item>
         </root>
@@ -391,7 +349,7 @@
     <input ref="/ILRG_Hluvukani_D_registo_horas/intronote">
       <label>&lt;br/&gt; &lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_D_registo_horas/my_form_name "/>&lt;/span&gt; &lt;br/&gt; Este formulário é utilizado para capturar informação sobre as actividades diárias dos enumeradores.
 
-O técnico pode usar o formulário para gravar informação sobre a data, tipo e duração de cada actividade. Quando se trata de mais do que uma actividade, deve ser submetido um formulário para cada actividade. 
+O técnico pode usar o formulário para gravar informação sobre a data, tipo e duração de cada actividade. Quando se trata de mais do que uma actividade no mesmo dia, deve ser submetido um formulário para cada actividade. 
 
 Por favor deslizar para a frente para continuar.</label>
     </input>
@@ -406,60 +364,36 @@ Por favor deslizar para a frente para continuar.</label>
         <value>Boaventura_Jovo</value>
       </item>
       <item>
-        <label>Carlos Munjovo</label>
-        <value>Carlos_Munjovo</value>
+        <label>Carlos Mujovo</label>
+        <value>Carlos_Mujovo</value>
       </item>
       <item>
-        <label>Edmilson Momade</label>
-        <value>Edmilson_Momade</value>
+        <label>Edson Ernesto</label>
+        <value>Edson_Ernesto</value>
       </item>
       <item>
-        <label>Edson Adozinda</label>
-        <value>Edson_Adozinda</value>
+        <label>Efigencia Mavondza</label>
+        <value>Efigencia_Mavondza</value>
       </item>
       <item>
-        <label>Efigencia Alberto</label>
-        <value>Efigencia_Alberto</value>
-      </item>
-      <item>
-        <label>Ester Matlombe</label>
-        <value>Ester_Matlombe</value>
-      </item>
-      <item>
-        <label>Gercia A.Mabunda</label>
-        <value>Gercia_A.Mabunda</value>
-      </item>
-      <item>
-        <label>Guilherme Nhacundela</label>
-        <value>Guilherme_Nhacundela</value>
+        <label>Gercia Mabunda</label>
+        <value>Gercia_Mabunda</value>
       </item>
       <item>
         <label>Helena Bila</label>
         <value>Helena_Bila</value>
       </item>
       <item>
-        <label>Herondina Timane</label>
-        <value>Herondina_Timane</value>
-      </item>
-      <item>
-        <label>Irene Timane</label>
-        <value>Irene_Timane</value>
+        <label>Irene Timana</label>
+        <value>Irene_Timana</value>
       </item>
       <item>
         <label>Julio Manheia</label>
         <value>Julio_Manheia</value>
       </item>
       <item>
-        <label>Ossifo Pinto</label>
-        <value>Ossifo_Pinto</value>
-      </item>
-      <item>
         <label>Raquel Ambasse</label>
         <value>Raquel_Ambasse</value>
-      </item>
-      <item>
-        <label>Sandra Dimande</label>
-        <value>Sandra_Dimande</value>
       </item>
       <item>
         <label>Outro</label>
@@ -534,7 +468,7 @@ Por favor deslizar para a frente para continuar.</label>
       <label>Hora do fim da actividade</label>
     </input>
     <select1 appearance="minimal" ref="/ILRG_Hluvukani_D_registo_horas/forms">
-      <label>Completou qualquer formulário A, B ou C?</label>
+      <label>Completou qualquer formulário para o registo de encontros (A), pessoas (E) ou parcelas (F)?</label>
       <item>
         <label>Sim</label>
         <value>yes</value>
@@ -545,7 +479,7 @@ Por favor deslizar para a frente para continuar.</label>
       </item>
     </select1>
     <input ref="/ILRG_Hluvukani_D_registo_horas/forms_no">
-      <label>Quantos formulários foram completados</label>
+      <label>Quantos formulários foram completados?</label>
     </input>
     <input ref="/ILRG_Hluvukani_D_registo_horas/point_activity">
       <label>Captura das coordenadas GPS da actividade</label>

@@ -11,7 +11,7 @@
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_C_perguntas_frequentes id="ILRG_Hluvukani_C" version="201902282">
+        <ILRG_Hluvukani_C_perguntas_frequentes id="ILRG_Hluvukani_C" version="201903081">
           <start/>
           <deviceid/>
           <my_form_name/>
@@ -75,60 +75,36 @@ Por favor deslizar para a frente para continuar.</label>
         <value>Boaventura_Jovo</value>
       </item>
       <item>
-        <label>Carlos Munjovo</label>
-        <value>Carlos_Munjovo</value>
+        <label>Carlos Mujovo</label>
+        <value>Carlos_Mujovo</value>
       </item>
       <item>
-        <label>Edmilson Momade</label>
-        <value>Edmilson_Momade</value>
+        <label>Edson Ernesto</label>
+        <value>Edson_Ernesto</value>
       </item>
       <item>
-        <label>Edson Adozinda</label>
-        <value>Edson_Adozinda</value>
+        <label>Efigencia Mavondza</label>
+        <value>Efigencia_Mavondza</value>
       </item>
       <item>
-        <label>Efigencia Alberto</label>
-        <value>Efigencia_Alberto</value>
-      </item>
-      <item>
-        <label>Ester Matlombe</label>
-        <value>Ester_Matlombe</value>
-      </item>
-      <item>
-        <label>Gercia A.Mabunda</label>
-        <value>Gercia_A.Mabunda</value>
-      </item>
-      <item>
-        <label>Guilherme Nhacundela</label>
-        <value>Guilherme_Nhacundela</value>
+        <label>Gercia Mabunda</label>
+        <value>Gercia_Mabunda</value>
       </item>
       <item>
         <label>Helena Bila</label>
         <value>Helena_Bila</value>
       </item>
       <item>
-        <label>Herondina Timane</label>
-        <value>Herondina_Timane</value>
-      </item>
-      <item>
-        <label>Irene Timane</label>
-        <value>Irene_Timane</value>
+        <label>Irene Timana</label>
+        <value>Irene_Timana</value>
       </item>
       <item>
         <label>Julio Manheia</label>
         <value>Julio_Manheia</value>
       </item>
       <item>
-        <label>Ossifo Pinto</label>
-        <value>Ossifo_Pinto</value>
-      </item>
-      <item>
         <label>Raquel Ambasse</label>
         <value>Raquel_Ambasse</value>
-      </item>
-      <item>
-        <label>Sandra Dimande</label>
-        <value>Sandra_Dimande</value>
       </item>
       <item>
         <label>Outro</label>
@@ -147,14 +123,6 @@ Por favor deslizar para a frente para continuar.</label>
       <item>
         <label>Associação</label>
         <value>assoc</value>
-      </item>
-      <item>
-        <label>Plano de Uso</label>
-        <value>land_use_plan</value>
-      </item>
-      <item>
-        <label>Delimitação Comunitário</label>
-        <value>delim_com</value>
       </item>
       <item>
         <label>Delimitação Familiar</label>
