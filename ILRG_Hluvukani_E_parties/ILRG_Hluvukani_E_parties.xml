@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>ILRG Hluvukani E - Registrar Pessoas</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-documents-9">
+            <value>NUIT</value>
+          </text>
+          <text id="static_instance-documents-8">
+            <value>Cartão de pagamento de imposto</value>
+          </text>
+          <text id="static_instance-genders-1">
+            <value>Feminino</value>
+          </text>
+          <text id="static_instance-genders-0">
+            <value>Masculino</value>
+          </text>
+          <text id="static_instance-documents-1">
+            <value>Talão do BI</value>
+          </text>
+          <text id="static_instance-documents-0">
+            <value>Bilhete de Identidade</value>
+          </text>
+          <text id="static_instance-documents-3">
+            <value>Cédula Pessoal</value>
+          </text>
+          <text id="static_instance-documents-2">
+            <value>Cartão de Eleitor</value>
+          </text>
+          <text id="static_instance-documents-5">
+            <value>Cartão de Desmobilização/Cartão Militar</value>
+          </text>
+          <text id="static_instance-documents-4">
+            <value>Declaração (Documento de Testemunhas)</value>
+          </text>
+          <text id="static_instance-documents-7">
+            <value>Carta de Condução</value>
+          </text>
+          <text id="static_instance-documents-6">
+            <value>Passaporte</value>
+          </text>
+          <text id="static_instance-blocks-4">
+            <value>Palmeira Sul</value>
+          </text>
+          <text id="static_instance-blocks-5">
+            <value>Manhiça Municipality</value>
+          </text>
+          <text id="static_instance-blocks-6">
+            <value>Martins</value>
+          </text>
+          <text id="static_instance-blocks-7">
+            <value>Cambeve</value>
+          </text>
+          <text id="static_instance-blocks-0">
+            <value>Taninga North</value>
+          </text>
+          <text id="static_instance-blocks-1">
+            <value>Taninga South</value>
+          </text>
+          <text id="static_instance-blocks-2">
+            <value>Palmeira Norte</value>
+          </text>
+          <text id="static_instance-blocks-3">
+            <value>Palmeira Centro</value>
+          </text>
+          <text id="static_instance-blocks-8">
+            <value>Munguine North</value>
+          </text>
+          <text id="static_instance-blocks-9">
+            <value>Munguine South</value>
+          </text>
+          <text id="/ILRG_Hluvukani_E_parties/Eg1/logo:label">
+            <value form="image">jr://images/usaid_hluv_logo.jpg</value>
+          </text>
+          <text id="static_instance-names-0">
+            <value>Armando Zuana</value>
+          </text>
+          <text id="/ILRG_Hluvukani_E_parties/id_image_note:label">
+            <value form="image">jr://images/composite_id.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que a imagem do BI ocupa toda a ecrã, como mostrado em baixo.&lt;/span&gt; 
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-names-10">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-names-7">
+            <value>Irene Timana</value>
+          </text>
+          <text id="static_instance-names-6">
+            <value>Helena Bila</value>
+          </text>
+          <text id="static_instance-nationalities-1">
+            <value>outra</value>
+          </text>
+          <text id="static_instance-names-5">
+            <value>Gercia Mabunda</value>
+          </text>
+          <text id="static_instance-blocks-10">
+            <value>Pateque Bobole</value>
+          </text>
+          <text id="static_instance-nationalities-0">
+            <value>Moçambicana</value>
+          </text>
+          <text id="/ILRG_Hluvukani_E_parties/photo_note:label">
+            <value form="image">jr://images/composite_faces.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que os fotos de pessoas aparecem com esta orientação e que as caras estão visíveis.&lt;/span&gt; 
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-names-4">
+            <value>Efigencia Mavondza</value>
+          </text>
+          <text id="static_instance-civil-2">
+            <value>Casado (a)</value>
+          </text>
+          <text id="static_instance-documents-10">
+            <value>outro</value>
+          </text>
+          <text id="static_instance-civil-0">
+            <value>Solteiro (a)</value>
+          </text>
+          <text id="static_instance-civil-1">
+            <value>União de Facto</value>
+          </text>
+          <text id="static_instance-names-2">
+            <value>Carlos Mujovo</value>
+          </text>
+          <text id="static_instance-ages-0">
+            <value>Menos de 18 anos</value>
+          </text>
+          <text id="static_instance-ages-1">
+            <value>Entre 18 - 30 anos</value>
+          </text>
+          <text id="static_instance-ages-2">
+            <value>Entre 30 - 50 anos</value>
+          </text>
+          <text id="static_instance-ages-3">
+            <value>50+ anos</value>
+          </text>
+          <text id="static_instance-names-3">
+            <value>Edson Ernesto</value>
+          </text>
+          <text id="static_instance-names-1">
+            <value>Boaventura Jovo</value>
+          </text>
+          <text id="static_instance-y_n-1">
+            <value>Não</value>
+          </text>
+          <text id="static_instance-y_n-0">
+            <value>Sim</value>
+          </text>
+          <text id="static_instance-regions-2">
+            <value>Sul</value>
+          </text>
+          <text id="static_instance-regions-0">
+            <value>Norte</value>
+          </text>
+          <text id="static_instance-regions-1">
+            <value>Central</value>
+          </text>
+          <text id="static_instance-civil-4">
+            <value>Viúvo (a)</value>
+          </text>
+          <text id="static_instance-names-9">
+            <value>Raquel Ambasse</value>
+          </text>
+          <text id="static_instance-names-8">
+            <value>Julio Manheia</value>
+          </text>
+          <text id="static_instance-civil-3">
+            <value>Divorciado (a)</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <ILRG_Hluvukani_E_parties id="ILRG_Hluvukani_E" version="201905071">
+          <start/>
+          <today/>
+          <deviceid/>
+          <my_form_name/>
+          <Eg1>
+            <logo/>
+            <cavateco/>
+          </Eg1>
+          <intronote/>
+          <tec_name/>
+          <Eg2>
+            <tec_given_name/>
+            <tec_family_name/>
+          </Eg2>
+          <date/>
+          <region_id/>
+          <block_id/>
+          <nationality/>
+          <natnote/>
+          <Eg3>
+            <family_name/>
+            <given_name/>
+            <other_name/>
+            <mother_name/>
+            <father_name/>
+          </Eg3>
+          <Eg4>
+            <gender/>
+            <civil/>
+            <birthplace/>
+          </Eg4>
+          <birthdate_y_n/>
+          <birthdate/>
+          <age_range/>
+          <age_years/>
+          <note_age/>
+          <Eg5>
+            <id_document/>
+            <id_number/>
+            <id_place_issued/>
+            <id_date_issued/>
+            <id_date_validity/>
+            <id_permanent/>
+          </Eg5>
+          <nuit_y_n/>
+          <nuit/>
+          <photo_note/>
+          <photo/>
+          <signature/>
+          <id_image_note/>
+          <id_image_front/>
+          <id_image_back/>
+          <contact_tel/>
+          <contact_email/>
+          <end/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </ILRG_Hluvukani_E_parties>
+      </instance>
+      <instance id="documents">
+        <root>
+          <item>
+            <itextId>static_instance-documents-0</itextId>
+            <name>identity_document</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-1</itextId>
+            <name>identity_receipt</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-2</itextId>
+            <name>voter_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-3</itextId>
+            <name>personal_ballot</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-4</itextId>
+            <name>declaration</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-5</itextId>
+            <name>demobilization_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-6</itextId>
+            <name>passport</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-7</itextId>
+            <name>driving_licence</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-8</itextId>
+            <name>tax_payment_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-9</itextId>
+            <name>nuit</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-10</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="blocks">
+        <root>
+          <item>
+            <itextId>static_instance-blocks-0</itextId>
+            <region_id>RN</region_id>
+            <name>A</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-1</itextId>
+            <region_id>RN</region_id>
+            <name>B</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-2</itextId>
+            <region_id>RN</region_id>
+            <name>C</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-3</itextId>
+            <region_id>RN</region_id>
+            <name>D</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-4</itextId>
+            <region_id>RN</region_id>
+            <name>E</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-5</itextId>
+            <region_id>RC</region_id>
+            <name>F</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-6</itextId>
+            <region_id>RC</region_id>
+            <name>G</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-7</itextId>
+            <region_id>RC</region_id>
+            <name>H</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-8</itextId>
+            <region_id>RS</region_id>
+            <name>I</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-9</itextId>
+            <region_id>RS</region_id>
+            <name>J</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-10</itextId>
+            <region_id>RS</region_id>
+            <name>K</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="civil">
+        <root>
+          <item>
+            <itextId>static_instance-civil-0</itextId>
+            <name>single</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-1</itextId>
+            <name>de_facto_union</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-2</itextId>
+            <name>married</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-3</itextId>
+            <name>divorced</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-4</itextId>
+            <name>widowed</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ages">
+        <root>
+          <item>
+            <itextId>static_instance-ages-0</itextId>
+            <name>minor</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-1</itextId>
+            <name>youth</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-2</itextId>
+            <name>adult</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-3</itextId>
+            <name>elder</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="regions">
+        <root>
+          <item>
+            <itextId>static_instance-regions-0</itextId>
+            <name>RN</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-1</itextId>
+            <name>RC</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-2</itextId>
+            <name>RS</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="y_n">
+        <root>
+          <item>
+            <itextId>static_instance-y_n-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-y_n-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="names">
+        <root>
+          <item>
+            <itextId>static_instance-names-0</itextId>
+            <name>Armando_Zuana</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-1</itextId>
+            <name>Boaventura_Jovo</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-2</itextId>
+            <name>Carlos_Mujovo</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-3</itextId>
+            <name>Edson_Ernesto</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-4</itextId>
+            <name>Efigencia_Mavondza</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-5</itextId>
+            <name>Gercia_Mabunda</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-6</itextId>
+            <name>Helena_Bila</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-7</itextId>
+            <name>Irene_Timana</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-8</itextId>
+            <name>Julio_Manheia</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-9</itextId>
+            <name>Raquel_Ambasse</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-10</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="nationalities">
+        <root>
+          <item>
+            <itextId>static_instance-nationalities-0</itextId>
+            <name>moz</name>
+          </item>
+          <item>
+            <itextId>static_instance-nationalities-1</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="genders">
+        <root>
+          <item>
+            <itextId>static_instance-genders-0</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-genders-1</itextId>
+            <name>female</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/ILRG_Hluvukani_E_parties/start" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/ILRG_Hluvukani_E_parties/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/ILRG_Hluvukani_E_parties/deviceid" type="string"/>
+      <bind calculate="&quot;Formulário E - Registo de Pessoas&quot;" nodeset="/ILRG_Hluvukani_E_parties/my_form_name" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg1/logo" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg1/cavateco" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/intronote" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/tec_name" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg2" relevant=" /ILRG_Hluvukani_E_parties/tec_name ='other'"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_E_parties/Eg2/tec_given_name" required="true()" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_E_parties/Eg2/tec_family_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/date" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/region_id" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/block_id" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/nationality" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/natnote" readonly="true()" relevant=" /ILRG_Hluvukani_E_parties/nationality  = 'other'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg3/family_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg3/given_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg3/other_name" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg3/mother_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg3/father_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg4/gender" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg4/civil" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg4/birthplace" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/birthdate_y_n" required="true()" type="select1"/>
+      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_E_parties/birthdate" relevant=" /ILRG_Hluvukani_E_parties/birthdate_y_n  = 'yes'" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/age_range" relevant=" /ILRG_Hluvukani_E_parties/birthdate_y_n  = 'no'" required="true()" type="select1"/>
+      <bind calculate="int((today() -  /ILRG_Hluvukani_E_parties/birthdate ) div 365.24)" nodeset="/ILRG_Hluvukani_E_parties/age_years" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/note_age" readonly="true()" relevant=" /ILRG_Hluvukani_E_parties/age_years &lt;18 or  /ILRG_Hluvukani_E_parties/age_range = 'minor'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_document" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_number" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_place_issued" type="string"/>
+      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_issued" type="date"/>
+      <bind constraint=". &gt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_validity" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_permanent" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/nuit_y_n" type="select1"/>
+      <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_E_parties/nuit" relevant=" /ILRG_Hluvukani_E_parties/nuit_y_n  = 'yes'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/photo_note" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/photo" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/signature" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_note" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_front" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_back" type="binary"/>
+      <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_E_parties/contact_tel" type="string"/>
+      <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_E_parties/contact_email" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ILRG_Hluvukani_E_parties/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/ILRG_Hluvukani_E_parties/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat('Parties','_', /ILRG_Hluvukani_E_parties/block_id ,'_', /ILRG_Hluvukani_E_parties/date )" nodeset="/ILRG_Hluvukani_E_parties/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg1">
+      <input ref="/ILRG_Hluvukani_E_parties/Eg1/logo">
+        <label ref="jr:itext('/ILRG_Hluvukani_E_parties/Eg1/logo:label')"/>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg1/cavateco">
+        <label>&lt;br/&gt; &lt;h1&gt;Projecto de Governação Integrada de Terra e Recursos&lt;/h1&gt;&lt;br/&gt; &lt;h2&gt;Uma iniciativa da USAID implementada pela Cooperativa Hluvukani Varimi Manhiça, Maragra Açucar SA e Terra Firma&lt;/h2&gt;&lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_E_parties/my_form_name "/>&lt;/span&gt; &lt;br/&gt;</label>
+      </input>
+    </group>
+    <input ref="/ILRG_Hluvukani_E_parties/intronote">
+      <label>&lt;br/&gt; &lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_E_parties/my_form_name "/>&lt;/span&gt; &lt;br/&gt; &lt;br/&gt;Este formulário é utilizado para gravar informação sobre as pessoas que querem fazer registo da suas terras familiares ou individuais, com a Hluvukani e com as autoridades cadastrais.
+
+&lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve avisar as pessoas que a sua informação pessoal será apenas utilizada para estes fins e que existem políticas que regulam o comportamento dos colaboradores em relação a confidencialidade e a segurança de toda informação das pessoas.&lt;/span&gt; &lt;br/&gt;
+
+Os nomes das pessoas serão introduzidos no 'Formulário F', que vai ser utilizado mais tarde para identificar as parcelas. Por isso será importante dizer às pessoas que devem registrar os seus nomes e detalhes antes que este processo de identificação de parcelas comece.
+
+O técnico pode usar o formulário para capturar informação sobre cada pessoa, incluindo a foto e assinatura digital.
+
+Por favor deslizar para a frente para continuar.</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/tec_name">
+      <label>Introduza o seu nome&lt;br&gt;&lt;br&gt; Nome do(a) técnico(a):</label>
+      <item>
+        <label>Armando Zuana</label>
+        <value>Armando_Zuana</value>
+      </item>
+      <item>
+        <label>Boaventura Jovo</label>
+        <value>Boaventura_Jovo</value>
+      </item>
+      <item>
+        <label>Carlos Mujovo</label>
+        <value>Carlos_Mujovo</value>
+      </item>
+      <item>
+        <label>Edson Ernesto</label>
+        <value>Edson_Ernesto</value>
+      </item>
+      <item>
+        <label>Efigencia Mavondza</label>
+        <value>Efigencia_Mavondza</value>
+      </item>
+      <item>
+        <label>Gercia Mabunda</label>
+        <value>Gercia_Mabunda</value>
+      </item>
+      <item>
+        <label>Helena Bila</label>
+        <value>Helena_Bila</value>
+      </item>
+      <item>
+        <label>Irene Timana</label>
+        <value>Irene_Timana</value>
+      </item>
+      <item>
+        <label>Julio Manheia</label>
+        <value>Julio_Manheia</value>
+      </item>
+      <item>
+        <label>Raquel Ambasse</label>
+        <value>Raquel_Ambasse</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg2">
+      <label>Novo nome do(a) técnico(a):</label>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg2/tec_given_name">
+        <label>Escreve o seu nome se não apareceu na lista</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg2/tec_family_name">
+        <label>Escreve o seu apelido se não apareceu na lista</label>
+      </input>
+    </group>
+    <input appearance="no-calendar" ref="/ILRG_Hluvukani_E_parties/date">
+      <label>Data do registo:</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/region_id">
+      <label>Selecionar a região (Norte, Central ou Sul)</label>
+      <item>
+        <label>Norte</label>
+        <value>RN</value>
+      </item>
+      <item>
+        <label>Central</label>
+        <value>RC</value>
+      </item>
+      <item>
+        <label>Sul</label>
+        <value>RS</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/block_id">
+      <label>Selecionar o bloco</label>
+      <itemset nodeset="instance('blocks')/root/item[region_id= /ILRG_Hluvukani_E_parties/region_id ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/nationality">
+      <label>Qual é a nacionalidade da pessoa?</label>
+      <item>
+        <label>Moçambicana</label>
+        <value>moz</value>
+      </item>
+      <item>
+        <label>outra</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/ILRG_Hluvukani_E_parties/natnote">
+      <label>Esta pessoa não pode adquirir um DUAT porque não é uma pessoa com nacionalidade Moçambicana.
+
+&lt;span style=&quot;color:#FF0000&quot;&gt;Deve fechar o formulário sem gravando as alterações.&lt;/span&gt;</label>
+    </input>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg3">
+      <label>Nomes de pessoa e familiares</label>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg3/family_name">
+        <label>Qual é o apelido da pessoa?</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg3/given_name">
+        <label>Qual é o nome da pessoa?</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg3/other_name">
+        <label>Qual é o outro nome da pessoa, se tiver?</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg3/mother_name">
+        <label>Qual é o nome completo da mãe da pessoa?</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg3/father_name">
+        <label>Qual é o nome completo do pai da pessoa?</label>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg4">
+      <label>Detalhes de pessoa</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/Eg4/gender">
+        <label>Qual é o género da pessoa?</label>
+        <item>
+          <label>Masculino</label>
+          <value>male</value>
+        </item>
+        <item>
+          <label>Feminino</label>
+          <value>female</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/Eg4/civil">
+        <label>Escolhe o estado civil da pessoa:</label>
+        <item>
+          <label>Solteiro (a)</label>
+          <value>single</value>
+        </item>
+        <item>
+          <label>União de Facto</label>
+          <value>de_facto_union</value>
+        </item>
+        <item>
+          <label>Casado (a)</label>
+          <value>married</value>
+        </item>
+        <item>
+          <label>Divorciado (a)</label>
+          <value>divorced</value>
+        </item>
+        <item>
+          <label>Viúvo (a)</label>
+          <value>widowed</value>
+        </item>
+      </select1>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg4/birthplace">
+        <label>Qual é a naturalidade da pessoa?</label>
+      </input>
+    </group>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/birthdate_y_n">
+      <label>A pessoa conhece a data de nascimento ou a data está disponível através do documento?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input appearance="no-calendar" ref="/ILRG_Hluvukani_E_parties/birthdate">
+      <label>Data de nascimento:</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/age_range">
+      <label>Qual é a idade da pessoa?</label>
+      <item>
+        <label>Menos de 18 anos</label>
+        <value>minor</value>
+      </item>
+      <item>
+        <label>Entre 18 - 30 anos</label>
+        <value>youth</value>
+      </item>
+      <item>
+        <label>Entre 30 - 50 anos</label>
+        <value>adult</value>
+      </item>
+      <item>
+        <label>50+ anos</label>
+        <value>elder</value>
+      </item>
+    </select1>
+    <input ref="/ILRG_Hluvukani_E_parties/note_age">
+      <label>A pessoa possui <output value=" /ILRG_Hluvukani_E_parties/age_years "/> anos, ou menos de 18 anos. &lt;br/&gt;&lt;br/&gt;Esta pessoa não pode adquirir um DUAT, porque ainda é menor.&lt;br/&gt;&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O(A) enumerador(a) pode continuar a fazer o registo desta pessoa menor, mas deve tambem fazer registo duma outra pessoa, maior de que 18 anos, que pode actuar como representante para fins de registo de parcela. 
+
+A outra pessoa deve ser registada através deste formulário, e o nome dessa pessoa deve ser escolhida na altura de registo de parcela.&lt;/span&gt;</label>
+    </input>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg5">
+      <label>Detalhes de documentos</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_E_parties/Eg5/id_document">
+        <label>Tipo de documento de identificação:</label>
+        <item>
+          <label>Bilhete de Identidade</label>
+          <value>identity_document</value>
+        </item>
+        <item>
+          <label>Talão do BI</label>
+          <value>identity_receipt</value>
+        </item>
+        <item>
+          <label>Cartão de Eleitor</label>
+          <value>voter_card</value>
+        </item>
+        <item>
+          <label>Cédula Pessoal</label>
+          <value>personal_ballot</value>
+        </item>
+        <item>
+          <label>Declaração (Documento de Testemunhas)</label>
+          <value>declaration</value>
+        </item>
+        <item>
+          <label>Cartão de Desmobilização/Cartão Militar</label>
+          <value>demobilization_card</value>
+        </item>
+        <item>
+          <label>Passaporte</label>
+          <value>passport</value>
+        </item>
+        <item>
+          <label>Carta de Condução</label>
+          <value>driving_licence</value>
+        </item>
+        <item>
+          <label>Cartão de pagamento de imposto</label>
+          <value>tax_payment_card</value>
+        </item>
+        <item>
+          <label>NUIT</label>
+          <value>nuit</value>
+        </item>
+        <item>
+          <label>outro</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg5/id_number">
+        <label>Numero de documento:</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg5/id_place_issued">
+        <label>Local de Emissão:</label>
+      </input>
+      <input appearance="no-calendar" ref="/ILRG_Hluvukani_E_parties/Eg5/id_date_issued">
+        <label>Emissão:</label>
+      </input>
+      <input appearance="no-calendar" ref="/ILRG_Hluvukani_E_parties/Eg5/id_date_validity">
+        <label>Validade:</label>
+      </input>
+      <select1 ref="/ILRG_Hluvukani_E_parties/Eg5/id_permanent">
+        <label>Será que o BI é vitalício?</label>
+        <item>
+          <label>Sim</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>Não</label>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/ILRG_Hluvukani_E_parties/nuit_y_n">
+      <label>Será que a pessoa tem NUIT?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input appearance="numbers" ref="/ILRG_Hluvukani_E_parties/nuit">
+      <label>Qual é o numero do NUIT?</label>
+    </input>
+    <input ref="/ILRG_Hluvukani_E_parties/photo_note">
+      <label ref="jr:itext('/ILRG_Hluvukani_E_parties/photo_note:label')"/>
+    </input>
+    <upload mediatype="image/*" ref="/ILRG_Hluvukani_E_parties/photo">
+      <label>Tire uma fotografia da pessoa</label>
+    </upload>
+    <upload appearance="signature" mediatype="image/*" ref="/ILRG_Hluvukani_E_parties/signature">
+      <label>Assinatura da pessoa</label>
+    </upload>
+    <input ref="/ILRG_Hluvukani_E_parties/id_image_note">
+      <label ref="jr:itext('/ILRG_Hluvukani_E_parties/id_image_note:label')"/>
+    </input>
+    <upload mediatype="image/*" ref="/ILRG_Hluvukani_E_parties/id_image_front">
+      <label>Tire uma fotografia do documento de identificação apresentado</label>
+    </upload>
+    <upload mediatype="image/*" ref="/ILRG_Hluvukani_E_parties/id_image_back">
+      <label>Tire uma fotografia do &lt;span style=&quot;color:#FF0000&quot;&gt;verso&lt;/span&gt; do documento de identificação apresentado (no caso de BI)</label>
+    </upload>
+    <input appearance="numbers" ref="/ILRG_Hluvukani_E_parties/contact_tel">
+      <label>Numero de telemóvel:</label>
+    </input>
+    <input ref="/ILRG_Hluvukani_E_parties/contact_email">
+      <label>Endereço do email:</label>
+    </input>
+  </h:body>
+</h:html>
