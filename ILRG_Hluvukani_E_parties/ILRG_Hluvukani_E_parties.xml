@@ -176,7 +176,7 @@ Por favor deslizar para a frente para continuar.</value>
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_E_parties id="ILRG_Hluvukani_E" version="201905071">
+        <ILRG_Hluvukani_E_parties id="ILRG_Hluvukani_E" version="201905091">
           <start/>
           <today/>
           <deviceid/>
@@ -191,6 +191,8 @@ Por favor deslizar para a frente para continuar.</value>
             <tec_given_name/>
             <tec_family_name/>
           </Eg2>
+          <prov_id/>
+          <dist_id/>
           <date/>
           <region_id/>
           <block_id/>
@@ -221,6 +223,11 @@ Por favor deslizar para a frente para continuar.</value>
             <id_date_validity/>
             <id_permanent/>
           </Eg5>
+          <Eg6>
+            <neighbourhood/>
+            <city_block/>
+            <house_number/>
+          </Eg6>
           <nuit_y_n/>
           <nuit/>
           <photo_note/>
@@ -500,6 +507,8 @@ Por favor deslizar para a frente para continuar.</value>
       <bind nodeset="/ILRG_Hluvukani_E_parties/Eg2" relevant=" /ILRG_Hluvukani_E_parties/tec_name ='other'"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_E_parties/Eg2/tec_given_name" required="true()" type="string"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_E_parties/Eg2/tec_family_name" required="true()" type="string"/>
+      <bind calculate="&quot;P10&quot;" nodeset="/ILRG_Hluvukani_E_parties/prov_id" type="string"/>
+      <bind calculate="&quot;D1004&quot;" nodeset="/ILRG_Hluvukani_E_parties/dist_id" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/date" required="true()" type="date"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/region_id" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/block_id" required="true()" type="select1"/>
@@ -524,6 +533,9 @@ Por favor deslizar para a frente para continuar.</value>
       <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_issued" type="date"/>
       <bind constraint=". &gt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_validity" type="date"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_permanent" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/neighbourhood" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/city_block" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/house_number" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/nuit_y_n" type="select1"/>
       <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_E_parties/nuit" relevant=" /ILRG_Hluvukani_E_parties/nuit_y_n  = 'yes'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/photo_note" readonly="true()" type="string"/>
@@ -824,6 +836,18 @@ A outra pessoa deve ser registada através deste formulário, e o nome dessa pes
           <value>no</value>
         </item>
       </select1>
+    </group>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_E_parties/Eg6">
+      <label>Detalhes de residencia</label>
+      <input ref="/ILRG_Hluvukani_E_parties/Eg6/neighbourhood">
+        <label>Nome do Bairro:</label>
+      </input>
+      <input appearance="numbers" ref="/ILRG_Hluvukani_E_parties/Eg6/city_block">
+        <label>Numero de Quarteirão:</label>
+      </input>
+      <input appearance="numbers" ref="/ILRG_Hluvukani_E_parties/Eg6/house_number">
+        <label>Numero de Casa:</label>
+      </input>
     </group>
     <select1 ref="/ILRG_Hluvukani_E_parties/nuit_y_n">
       <label>Será que a pessoa tem NUIT?</label>
