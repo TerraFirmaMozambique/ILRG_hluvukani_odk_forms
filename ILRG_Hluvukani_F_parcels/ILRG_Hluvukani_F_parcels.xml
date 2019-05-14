@@ -1,0 +1,2807 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>ILRG Hluvukani F - Registrar Parcelas</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-zone_types-2">
+            <value>Zona de Inundação</value>
+          </text>
+          <text id="static_instance-rep_relations-16">
+            <value>Madrasta</value>
+          </text>
+          <text id="static_instance-rep_relations-17">
+            <value>Mãe</value>
+          </text>
+          <text id="static_instance-rep_relations-14">
+            <value>Inquilino(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-15">
+            <value>Irmã(o)</value>
+          </text>
+          <text id="static_instance-rep_relations-12">
+            <value>Gerente</value>
+          </text>
+          <text id="static_instance-rep_relations-13">
+            <value>Guarda</value>
+          </text>
+          <text id="static_instance-rep_relations-10">
+            <value>Filho(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-11">
+            <value>Genro(Nora)</value>
+          </text>
+          <text id="static_instance-blocks-8">
+            <value>Munguine North</value>
+          </text>
+          <text id="static_instance-blocks-9">
+            <value>Munguine South</value>
+          </text>
+          <text id="static_instance-rep_relations-18">
+            <value>Membro</value>
+          </text>
+          <text id="static_instance-rep_relations-19">
+            <value>Neto(a)</value>
+          </text>
+          <text id="static_instance-zone_types-3">
+            <value>Zona de Erosão</value>
+          </text>
+          <text id="static_instance-nationalities-0">
+            <value>Moçambicana</value>
+          </text>
+          <text id="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_note_1:label">
+            <value form="image">jr://images/composite_id.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que a imagem do BI ocupa toda a ecrã, como mostrado em baixo.&lt;/span&gt; &lt;br/&gt;
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-provinces-8">
+            <value>Tete</value>
+          </text>
+          <text id="static_instance-provinces-9">
+            <value>Zambezia</value>
+          </text>
+          <text id="static_instance-provinces-4">
+            <value>Maputo</value>
+          </text>
+          <text id="static_instance-provinces-5">
+            <value>Nampula</value>
+          </text>
+          <text id="static_instance-provinces-6">
+            <value>Niassa</value>
+          </text>
+          <text id="static_instance-provinces-7">
+            <value>Sofala</value>
+          </text>
+          <text id="static_instance-provinces-0">
+            <value>Cabo Delgado</value>
+          </text>
+          <text id="static_instance-provinces-1">
+            <value>Gaza</value>
+          </text>
+          <text id="static_instance-provinces-2">
+            <value>Inhambane</value>
+          </text>
+          <text id="static_instance-provinces-3">
+            <value>Manica</value>
+          </text>
+          <text id="static_instance-civil-4">
+            <value>Viúvo (a)</value>
+          </text>
+          <text id="static_instance-civil-2">
+            <value>Casado (a)</value>
+          </text>
+          <text id="static_instance-civil-3">
+            <value>Divorciado (a)</value>
+          </text>
+          <text id="static_instance-civil-0">
+            <value>Solteiro (a)</value>
+          </text>
+          <text id="static_instance-civil-1">
+            <value>União de Facto</value>
+          </text>
+          <text id="static_instance-names-7">
+            <value>Irene Timana</value>
+          </text>
+          <text id="static_instance-names-6">
+            <value>Helena Bila</value>
+          </text>
+          <text id="static_instance-names-5">
+            <value>Gercia Mabunda</value>
+          </text>
+          <text id="static_instance-names-4">
+            <value>Efigencia Mavondza</value>
+          </text>
+          <text id="static_instance-names-3">
+            <value>Edson Ernesto</value>
+          </text>
+          <text id="static_instance-names-2">
+            <value>Carlos Mujovo</value>
+          </text>
+          <text id="static_instance-names-1">
+            <value>Boaventura Jovo</value>
+          </text>
+          <text id="static_instance-names-0">
+            <value>Armando Zuana</value>
+          </text>
+          <text id="static_instance-regions-2">
+            <value>Sul</value>
+          </text>
+          <text id="static_instance-regions-0">
+            <value>Norte</value>
+          </text>
+          <text id="static_instance-regions-1">
+            <value>Central</value>
+          </text>
+          <text id="static_instance-blocks-6">
+            <value>Martins</value>
+          </text>
+          <text id="static_instance-names-9">
+            <value>Raquel Ambasse</value>
+          </text>
+          <text id="static_instance-names-8">
+            <value>Julio Manheia</value>
+          </text>
+          <text id="static_instance-norms-2">
+            <value>Herança da família</value>
+          </text>
+          <text id="static_instance-norms-3">
+            <value>Compra de Benfeitorias</value>
+          </text>
+          <text id="static_instance-norms-0">
+            <value>Através do Regulo ou autoridade tradicional</value>
+          </text>
+          <text id="static_instance-blocks-7">
+            <value>Cambeve</value>
+          </text>
+          <text id="static_instance-norms-4">
+            <value>Transmissão</value>
+          </text>
+          <text id="static_instance-norms-5">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-party_type-1">
+            <value>Cotitular</value>
+          </text>
+          <text id="static_instance-party_type-0">
+            <value>Singular</value>
+          </text>
+          <text id="static_instance-party_type-3">
+            <value>Associação</value>
+          </text>
+          <text id="static_instance-party_type-2">
+            <value>Pessoa menor</value>
+          </text>
+          <text id="static_instance-party_type-5">
+            <value>Instituição do Estado</value>
+          </text>
+          <text id="static_instance-party_type-4">
+            <value>Cooperativa</value>
+          </text>
+          <text id="static_instance-party_type-6">
+            <value>Empresa Privada</value>
+          </text>
+          <text id="static_instance-blocks-2">
+            <value>Palmeira Norte</value>
+          </text>
+          <text id="static_instance-genders-1">
+            <value>Feminino</value>
+          </text>
+          <text id="static_instance-genders-0">
+            <value>Masculino</value>
+          </text>
+          <text id="static_instance-blocks-3">
+            <value>Palmeira Centro</value>
+          </text>
+          <text id="static_instance-uses-10">
+            <value>Pecuária Outro</value>
+          </text>
+          <text id="static_instance-uses-11">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-rep_relations-8">
+            <value>Enteado(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-9">
+            <value>Esposo(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-4">
+            <value>Avo(avó)</value>
+          </text>
+          <text id="static_instance-rep_relations-5">
+            <value>Cunhado(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-6">
+            <value>Diretor geral</value>
+          </text>
+          <text id="static_instance-rep_relations-7">
+            <value>Empregado(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-0">
+            <value>Administrador</value>
+          </text>
+          <text id="static_instance-rep_relations-1">
+            <value>Administrador delegado</value>
+          </text>
+          <text id="static_instance-rep_relations-2">
+            <value>Advogado</value>
+          </text>
+          <text id="static_instance-rep_relations-3">
+            <value>Amigo(a)</value>
+          </text>
+          <text id="static_instance-searchoption-3">
+            <value>Termina com</value>
+          </text>
+          <text id="static_instance-use_categories-2">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-searchoption-1">
+            <value>Igual</value>
+          </text>
+          <text id="static_instance-searchoption-0">
+            <value>Contém</value>
+          </text>
+          <text id="static_instance-norms-1">
+            <value>Doação de alguém</value>
+          </text>
+          <text id="static_instance-use_categories-0">
+            <value>Exploração Familiar</value>
+          </text>
+          <text id="static_instance-use_categories-1">
+            <value>Exploração Comercial</value>
+          </text>
+          <text id="static_instance-searchoption-2">
+            <value>Começa com</value>
+          </text>
+          <text id="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo_note:label">
+            <value form="image">jr://images/composite_faces.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que os fotos de pessoas aparecem com esta orientação e que as caras estão visíveis&lt;/span&gt;.
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-documents-10">
+            <value>outro</value>
+          </text>
+          <text id="static_instance-documents-9">
+            <value>NUIT</value>
+          </text>
+          <text id="static_instance-documents-8">
+            <value>Cartão de pagamento de imposto</value>
+          </text>
+          <text id="static_instance-documents-1">
+            <value>Talão do BI</value>
+          </text>
+          <text id="static_instance-documents-0">
+            <value>Bilhete de Identidade</value>
+          </text>
+          <text id="static_instance-documents-3">
+            <value>Cédula Pessoal</value>
+          </text>
+          <text id="static_instance-documents-2">
+            <value>Cartão de Eleitor</value>
+          </text>
+          <text id="static_instance-documents-5">
+            <value>Cartão de Desmobilização/Cartão Militar</value>
+          </text>
+          <text id="static_instance-documents-4">
+            <value>Declaração (Documento de Testemunhas)</value>
+          </text>
+          <text id="static_instance-documents-7">
+            <value>Carta de Condução</value>
+          </text>
+          <text id="static_instance-documents-6">
+            <value>Passaporte</value>
+          </text>
+          <text id="static_instance-blocks-4">
+            <value>Palmeira Sul</value>
+          </text>
+          <text id="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_note_1:label">
+            <value form="image">jr://images/composite_faces.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que os fotos de pessoas aparecem com esta orientação e que as caras estão visíveis&lt;/span&gt; .
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-blocks-5">
+            <value>Manhiça Municipality</value>
+          </text>
+          <text id="static_instance-occup-1">
+            <value>Atraves de Normas e Práticas Costumeiras</value>
+          </text>
+          <text id="static_instance-occup-0">
+            <value>Ocupação de boa fé (pelo menos 10 anos)</value>
+          </text>
+          <text id="static_instance-blocks-10">
+            <value>Pateque Bobole</value>
+          </text>
+          <text id="static_instance-occup-2">
+            <value>Reassentamento</value>
+          </text>
+          <text id="static_instance-zone_overlaps-0">
+            <value>Parcialmente dentro</value>
+          </text>
+          <text id="static_instance-zone_overlaps-1">
+            <value>Totalmente dentro</value>
+          </text>
+          <text id="static_instance-ages-0">
+            <value>Menos de 18 anos</value>
+          </text>
+          <text id="static_instance-ages-1">
+            <value>Entre 18 - 30 anos</value>
+          </text>
+          <text id="static_instance-ages-2">
+            <value>Entre 30 - 50 anos</value>
+          </text>
+          <text id="static_instance-ages-3">
+            <value>50+ anos</value>
+          </text>
+          <text id="static_instance-party_id-0">
+            <value>party_name</value>
+          </text>
+          <text id="static_instance-party_id-1">
+            <value>Outro nome (não está na lista)</value>
+          </text>
+          <text id="static_instance-access-0">
+            <value>Via de acesso publico ou comunitário</value>
+          </text>
+          <text id="static_instance-access-1">
+            <value>Pela parcela do vizinho</value>
+          </text>
+          <text id="static_instance-nationalities-1">
+            <value>outra</value>
+          </text>
+          <text id="static_instance-y_n-1">
+            <value>Não</value>
+          </text>
+          <text id="static_instance-blocks-0">
+            <value>Taninga North</value>
+          </text>
+          <text id="static_instance-rep_relations-30">
+            <value>Trabalhador(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-31">
+            <value>Tutor de menor</value>
+          </text>
+          <text id="static_instance-rep_relations-32">
+            <value>Vice Presidente</value>
+          </text>
+          <text id="static_instance-rep_relations-33">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-y_n-0">
+            <value>Sim</value>
+          </text>
+          <text id="static_instance-blocks-1">
+            <value>Taninga South</value>
+          </text>
+          <text id="static_instance-uses-0">
+            <value>Agricultura</value>
+          </text>
+          <text id="static_instance-uses-1">
+            <value>Agropecuária</value>
+          </text>
+          <text id="static_instance-uses-2">
+            <value>Comércio/Industria/Serviços</value>
+          </text>
+          <text id="static_instance-uses-3">
+            <value>Culturas Permanentes</value>
+          </text>
+          <text id="static_instance-uses-4">
+            <value>Fins Comunitários</value>
+          </text>
+          <text id="static_instance-uses-5">
+            <value>Fins Sociais/Religiosos</value>
+          </text>
+          <text id="static_instance-uses-6">
+            <value>Habitação Propria</value>
+          </text>
+          <text id="static_instance-uses-7">
+            <value>Habitação Veraneio</value>
+          </text>
+          <text id="static_instance-uses-8">
+            <value>Habitação e Comercio</value>
+          </text>
+          <text id="static_instance-uses-9">
+            <value>Pecuária Gado Bovino</value>
+          </text>
+          <text id="static_instance-names-10">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-zonas_excl-0">
+            <value>Protecção Parcial</value>
+          </text>
+          <text id="static_instance-zonas_excl-1">
+            <value>Protecção Total</value>
+          </text>
+          <text id="static_instance-zonas_excl-2">
+            <value>Zona de Inundação</value>
+          </text>
+          <text id="static_instance-zonas_excl-3">
+            <value>Zona de Erosão</value>
+          </text>
+          <text id="/ILRG_Hluvukani_F_parcels/Fg1/logo:label">
+            <value form="image">jr://images/usaid_hluv_logo.jpg</value>
+          </text>
+          <text id="static_instance-rep_relations-23">
+            <value>Presidente</value>
+          </text>
+          <text id="static_instance-rep_relations-22">
+            <value>PCA</value>
+          </text>
+          <text id="static_instance-rep_relations-21">
+            <value>Pai</value>
+          </text>
+          <text id="static_instance-rep_relations-20">
+            <value>Padrasto</value>
+          </text>
+          <text id="static_instance-rep_relations-27">
+            <value>Socio(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-26">
+            <value>Sobrinho(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-25">
+            <value>Representante legal</value>
+          </text>
+          <text id="static_instance-rep_relations-24">
+            <value>Primo(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-29">
+            <value>Tio(a)</value>
+          </text>
+          <text id="static_instance-rep_relations-28">
+            <value>Sogro(a)</value>
+          </text>
+          <text id="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_note:label">
+            <value form="image">jr://images/composite_id.jpg</value>
+            <value>&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O enumerador deve assegurar que a imagem do BI ocupa toda a ecrã, como mostrado em baixo.&lt;/span&gt; &lt;br/&gt;
+
+Por favor deslizar para a frente para continuar.</value>
+          </text>
+          <text id="static_instance-zone_types-1">
+            <value>Protecção Total</value>
+          </text>
+          <text id="static_instance-witness_types-0">
+            <value>Chefe da Zona ou Povoado</value>
+          </text>
+          <text id="static_instance-witness_types-1">
+            <value>Representante da Associação/Cooperativa Hluvukani</value>
+          </text>
+          <text id="static_instance-witness_types-2">
+            <value>Vizinho directo</value>
+          </text>
+          <text id="static_instance-witness_types-3">
+            <value>Vizinho perto</value>
+          </text>
+          <text id="static_instance-conflict_types-4">
+            <value>Outro</value>
+          </text>
+          <text id="static_instance-conflict_types-2">
+            <value>Limites</value>
+          </text>
+          <text id="static_instance-conflict_types-3">
+            <value>Acesso</value>
+          </text>
+          <text id="static_instance-conflict_types-0">
+            <value>Trespasse</value>
+          </text>
+          <text id="static_instance-conflict_types-1">
+            <value>Titularidade</value>
+          </text>
+          <text id="static_instance-party_role-1">
+            <value>Representante duma pessoa menor</value>
+          </text>
+          <text id="static_instance-party_role-0">
+            <value>Titular</value>
+          </text>
+          <text id="static_instance-zone_types-0">
+            <value>Protecção Parcial</value>
+          </text>
+          <text id="static_instance-party_role-2">
+            <value>Representante duma pessoa ausente</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <ILRG_Hluvukani_F_parcels id="ILRG_Hluvukani_F" version="201905101">
+          <start/>
+          <today/>
+          <deviceid/>
+          <my_form_name/>
+          <Fg1>
+            <logo/>
+            <cavateco/>
+          </Fg1>
+          <intronote/>
+          <tec_name/>
+          <Fg2>
+            <tec_given_name/>
+            <tec_family_name/>
+          </Fg2>
+          <prov_id/>
+          <dist_id/>
+          <date/>
+          <region_id/>
+          <block_id/>
+          <receipt_id/>
+          <receipt_id_check/>
+          <occup_type/>
+          <norm_type/>
+          <zone_exclusion_y_n/>
+          <Fg3>
+            <zone_overlap/>
+            <zone_type/>
+          </Fg3>
+          <conflict_y_n/>
+          <Fg4>
+            <conflict_type/>
+            <conflict_description/>
+            <solved_y_n/>
+          </Fg4>
+          <Fg5>
+            <use_category/>
+            <uses/>
+            <use_prin/>
+          </Fg5>
+          <rights_holder_number/>
+          <right_holders_count/>
+          <right_holders jr:template="">
+            <searchtext/>
+            <right_holder/>
+            <party_role/>
+            <rep_relation/>
+          </right_holders>
+          <new_holder_y_n/>
+          <reg_new_holder_number/>
+          <add_rights_holders_count/>
+          <add_rights_holders jr:template="">
+            <Fg6>
+              <family_name/>
+              <given_name/>
+              <other_name/>
+              <mother_name/>
+              <father_name/>
+            </Fg6>
+            <Fg7>
+              <gender/>
+              <civil/>
+              <birthplace/>
+            </Fg7>
+            <birthdate_y_n/>
+            <birthdate/>
+            <age_range/>
+            <age_years/>
+            <note_age/>
+            <party_role_1/>
+            <rep_relation_1/>
+            <Fg8>
+              <id_document/>
+              <id_number/>
+              <id_place_issued/>
+              <id_date_issued/>
+              <id_date_validity/>
+              <id_permanent/>
+            </Fg8>
+            <Fg9>
+              <neighbourhood/>
+              <city_block/>
+              <house_number/>
+            </Fg9>
+            <nuit_y_n/>
+            <nuit/>
+            <photo_note/>
+            <photo/>
+            <signature/>
+            <id_image_note/>
+            <id_image_front/>
+            <id_image_back/>
+            <contact_tel/>
+            <contact_email/>
+          </add_rights_holders>
+          <witness_number/>
+          <witnesses_count/>
+          <witnesses jr:template="">
+            <searchtext_1/>
+            <witness/>
+            <witness_type/>
+          </witnesses>
+          <new_witness_y_n/>
+          <reg_new_witness_number/>
+          <add_witnesses_count/>
+          <add_witnesses jr:template="">
+            <Fg10>
+              <family_name_1/>
+              <given_name_1/>
+              <other_name_1/>
+              <mother_name_1/>
+              <father_name_1/>
+            </Fg10>
+            <Fg11>
+              <gender_1/>
+              <civil_1/>
+              <birthplace_1/>
+            </Fg11>
+            <birthdate_y_n_1/>
+            <birthdate_1/>
+            <age_range_1/>
+            <age_years_1/>
+            <note_age_1/>
+            <Fg12>
+              <id_document_1/>
+              <id_number_1/>
+              <id_place_issued_1/>
+              <id_date_issued_1/>
+              <id_date_validity_1/>
+              <id_permanent_1/>
+            </Fg12>
+            <Fg13>
+              <neighbourhood_1/>
+              <city_block_1/>
+              <house_number_1/>
+            </Fg13>
+            <nuit_y_n_1/>
+            <nuit_1/>
+            <photo_note_1/>
+            <photo_1/>
+            <signature_1/>
+            <id_image_note_1/>
+            <id_image_front_1/>
+            <id_image_back_1/>
+            <contact_tel_1/>
+            <contact_email_1/>
+            <witness_type/>
+          </add_witnesses>
+          <auto_gps/>
+          <limits_y_n/>
+          <Pontos jr:template="">
+            <auto_gps_limit/>
+            <upn_gps_limit/>
+          </Pontos>
+          <endnote/>
+          <receipt_image/>
+          <end/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </ILRG_Hluvukani_F_parcels>
+      </instance>
+      <instance id="zonas_excl">
+        <root>
+          <item>
+            <itextId>static_instance-zonas_excl-0</itextId>
+            <name>prot_par</name>
+          </item>
+          <item>
+            <itextId>static_instance-zonas_excl-1</itextId>
+            <name>prot_tot</name>
+          </item>
+          <item>
+            <itextId>static_instance-zonas_excl-2</itextId>
+            <name>zona_inund</name>
+          </item>
+          <item>
+            <itextId>static_instance-zonas_excl-3</itextId>
+            <name>zona_erosa</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="zone_overlaps">
+        <root>
+          <item>
+            <itextId>static_instance-zone_overlaps-0</itextId>
+            <name>partial</name>
+          </item>
+          <item>
+            <itextId>static_instance-zone_overlaps-1</itextId>
+            <name>total</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="civil">
+        <root>
+          <item>
+            <itextId>static_instance-civil-0</itextId>
+            <name>single</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-1</itextId>
+            <name>de_facto_union</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-2</itextId>
+            <name>married</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-3</itextId>
+            <name>divorced</name>
+          </item>
+          <item>
+            <itextId>static_instance-civil-4</itextId>
+            <name>widowed</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ages">
+        <root>
+          <item>
+            <itextId>static_instance-ages-0</itextId>
+            <name>minor</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-1</itextId>
+            <name>youth</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-2</itextId>
+            <name>adult</name>
+          </item>
+          <item>
+            <itextId>static_instance-ages-3</itextId>
+            <name>elder</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="names">
+        <root>
+          <item>
+            <itextId>static_instance-names-0</itextId>
+            <name>Armando_Zuana</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-1</itextId>
+            <name>Boaventura_Jovo</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-2</itextId>
+            <name>Carlos_Mujovo</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-3</itextId>
+            <name>Edson_Ernesto</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-4</itextId>
+            <name>Efigencia_Mavondza</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-5</itextId>
+            <name>Gercia_Mabunda</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-6</itextId>
+            <name>Helena_Bila</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-7</itextId>
+            <name>Irene_Timana</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-8</itextId>
+            <name>Julio_Manheia</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-9</itextId>
+            <name>Raquel_Ambasse</name>
+          </item>
+          <item>
+            <itextId>static_instance-names-10</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="occup">
+        <root>
+          <item>
+            <itextId>static_instance-occup-0</itextId>
+            <name>good_faith</name>
+          </item>
+          <item>
+            <itextId>static_instance-occup-1</itextId>
+            <name>customary</name>
+          </item>
+          <item>
+            <itextId>static_instance-occup-2</itextId>
+            <name>resettlement</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="regions">
+        <root>
+          <item>
+            <itextId>static_instance-regions-0</itextId>
+            <name>RN</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-1</itextId>
+            <name>RC</name>
+          </item>
+          <item>
+            <itextId>static_instance-regions-2</itextId>
+            <name>RS</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="provinces">
+        <root>
+          <item>
+            <itextId>static_instance-provinces-0</itextId>
+            <name>P02</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-1</itextId>
+            <name>P09</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-2</itextId>
+            <name>P08</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-3</itextId>
+            <name>P06</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-4</itextId>
+            <name>P10</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-5</itextId>
+            <name>P03</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-6</itextId>
+            <name>P01</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-7</itextId>
+            <name>P07</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-8</itextId>
+            <name>P05</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinces-9</itextId>
+            <name>P04</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="documents">
+        <root>
+          <item>
+            <itextId>static_instance-documents-0</itextId>
+            <name>identity_document</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-1</itextId>
+            <name>identity_receipt</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-2</itextId>
+            <name>voter_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-3</itextId>
+            <name>personal_ballot</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-4</itextId>
+            <name>declaration</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-5</itextId>
+            <name>demobilization_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-6</itextId>
+            <name>passport</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-7</itextId>
+            <name>driving_licence</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-8</itextId>
+            <name>tax_payment_card</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-9</itextId>
+            <name>nuit</name>
+          </item>
+          <item>
+            <itextId>static_instance-documents-10</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="rep_relations">
+        <root>
+          <item>
+            <itextId>static_instance-rep_relations-0</itextId>
+            <name>administrator</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-1</itextId>
+            <name>administrator_designate</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-2</itextId>
+            <name>lawyer</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-3</itextId>
+            <name>friend</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-4</itextId>
+            <name>grandparent</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-5</itextId>
+            <name>brother_in_law</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-6</itextId>
+            <name>director_general</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-7</itextId>
+            <name>employee</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-8</itextId>
+            <name>stepson</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-9</itextId>
+            <name>husband</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-10</itextId>
+            <name>son</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-11</itextId>
+            <name>son_in_law</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-12</itextId>
+            <name>manager</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-13</itextId>
+            <name>guard</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-14</itextId>
+            <name>tenant</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-15</itextId>
+            <name>brother</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-16</itextId>
+            <name>stepmother</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-17</itextId>
+            <name>mother</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-18</itextId>
+            <name>member</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-19</itextId>
+            <name>grandson</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-20</itextId>
+            <name>stepfather</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-21</itextId>
+            <name>father</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-22</itextId>
+            <name>pca</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-23</itextId>
+            <name>president</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-24</itextId>
+            <name>cousin</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-25</itextId>
+            <name>legal_rep</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-26</itextId>
+            <name>nephew</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-27</itextId>
+            <name>partner</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-28</itextId>
+            <name>father_in_law</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-29</itextId>
+            <name>uncle</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-30</itextId>
+            <name>worker</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-31</itextId>
+            <name>tutor</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-32</itextId>
+            <name>vice_president</name>
+          </item>
+          <item>
+            <itextId>static_instance-rep_relations-33</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="party_type">
+        <root>
+          <item>
+            <itextId>static_instance-party_type-0</itextId>
+            <name>sing</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-1</itextId>
+            <name>cotitular</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-2</itextId>
+            <name>menor</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-3</itextId>
+            <name>assoc</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-4</itextId>
+            <name>coop</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-5</itextId>
+            <name>estado</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_type-6</itextId>
+            <name>privada</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="witness_types">
+        <root>
+          <item>
+            <itextId>static_instance-witness_types-0</itextId>
+            <name>authority</name>
+          </item>
+          <item>
+            <itextId>static_instance-witness_types-1</itextId>
+            <name>assoc_rep</name>
+          </item>
+          <item>
+            <itextId>static_instance-witness_types-2</itextId>
+            <name>direct_neighbour</name>
+          </item>
+          <item>
+            <itextId>static_instance-witness_types-3</itextId>
+            <name>nearby_neighbour</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="access">
+        <root>
+          <item>
+            <itextId>static_instance-access-0</itextId>
+            <name>access_public</name>
+          </item>
+          <item>
+            <itextId>static_instance-access-1</itextId>
+            <name>access_neighbour</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="y_n">
+        <root>
+          <item>
+            <itextId>static_instance-y_n-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-y_n-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="conflict_types">
+        <root>
+          <item>
+            <itextId>static_instance-conflict_types-0</itextId>
+            <name>transfer</name>
+          </item>
+          <item>
+            <itextId>static_instance-conflict_types-1</itextId>
+            <name>title</name>
+          </item>
+          <item>
+            <itextId>static_instance-conflict_types-2</itextId>
+            <name>limits</name>
+          </item>
+          <item>
+            <itextId>static_instance-conflict_types-3</itextId>
+            <name>access</name>
+          </item>
+          <item>
+            <itextId>static_instance-conflict_types-4</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="blocks">
+        <root>
+          <item>
+            <itextId>static_instance-blocks-0</itextId>
+            <region_id>RN</region_id>
+            <name>A</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-1</itextId>
+            <region_id>RN</region_id>
+            <name>B</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-2</itextId>
+            <region_id>RN</region_id>
+            <name>C</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-3</itextId>
+            <region_id>RN</region_id>
+            <name>D</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-4</itextId>
+            <region_id>RN</region_id>
+            <name>E</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-5</itextId>
+            <region_id>RC</region_id>
+            <name>F</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-6</itextId>
+            <region_id>RC</region_id>
+            <name>G</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-7</itextId>
+            <region_id>RC</region_id>
+            <name>H</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-8</itextId>
+            <region_id>RS</region_id>
+            <name>I</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-9</itextId>
+            <region_id>RS</region_id>
+            <name>J</name>
+          </item>
+          <item>
+            <itextId>static_instance-blocks-10</itextId>
+            <region_id>RS</region_id>
+            <name>K</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="party_role">
+        <root>
+          <item>
+            <itextId>static_instance-party_role-0</itextId>
+            <name>right_holder</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_role-1</itextId>
+            <name>representative_minor</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_role-2</itextId>
+            <name>representative_absent</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="uses">
+        <root>
+          <item>
+            <itextId>static_instance-uses-0</itextId>
+            <name>cropping</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-1</itextId>
+            <name>mixed_farming</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-2</itextId>
+            <name>commercial</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-3</itextId>
+            <name>permanent_crop</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-4</itextId>
+            <name>community</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-5</itextId>
+            <name>social</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-6</itextId>
+            <name>residential</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-7</itextId>
+            <name>residential_holiday</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-8</itextId>
+            <name>residential_commercial</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-9</itextId>
+            <name>cattle_rearing</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-10</itextId>
+            <name>other_livestock</name>
+          </item>
+          <item>
+            <itextId>static_instance-uses-11</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="use_categories">
+        <root>
+          <item>
+            <itextId>static_instance-use_categories-0</itextId>
+            <name>family_use</name>
+          </item>
+          <item>
+            <itextId>static_instance-use_categories-1</itextId>
+            <name>commercial_use</name>
+          </item>
+          <item>
+            <itextId>static_instance-use_categories-2</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="nationalities">
+        <root>
+          <item>
+            <itextId>static_instance-nationalities-0</itextId>
+            <name>moz</name>
+          </item>
+          <item>
+            <itextId>static_instance-nationalities-1</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="norms">
+        <root>
+          <item>
+            <itextId>static_instance-norms-0</itextId>
+            <name>traditional</name>
+          </item>
+          <item>
+            <itextId>static_instance-norms-1</itextId>
+            <name>donation</name>
+          </item>
+          <item>
+            <itextId>static_instance-norms-2</itextId>
+            <name>inheritance</name>
+          </item>
+          <item>
+            <itextId>static_instance-norms-3</itextId>
+            <name>purchase</name>
+          </item>
+          <item>
+            <itextId>static_instance-norms-4</itextId>
+            <name>transfer</name>
+          </item>
+          <item>
+            <itextId>static_instance-norms-5</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="party_id">
+        <root>
+          <item>
+            <itextId>static_instance-party_id-0</itextId>
+            <name>party_id_key</name>
+          </item>
+          <item>
+            <itextId>static_instance-party_id-1</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="zone_types">
+        <root>
+          <item>
+            <itextId>static_instance-zone_types-0</itextId>
+            <name>partial</name>
+          </item>
+          <item>
+            <itextId>static_instance-zone_types-1</itextId>
+            <name>total</name>
+          </item>
+          <item>
+            <itextId>static_instance-zone_types-2</itextId>
+            <name>flood</name>
+          </item>
+          <item>
+            <itextId>static_instance-zone_types-3</itextId>
+            <name>erosion</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="genders">
+        <root>
+          <item>
+            <itextId>static_instance-genders-0</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-genders-1</itextId>
+            <name>female</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="searchoption">
+        <root>
+          <item>
+            <itextId>static_instance-searchoption-0</itextId>
+            <name>contains</name>
+          </item>
+          <item>
+            <itextId>static_instance-searchoption-1</itextId>
+            <name>matches</name>
+          </item>
+          <item>
+            <itextId>static_instance-searchoption-2</itextId>
+            <name>startswith</name>
+          </item>
+          <item>
+            <itextId>static_instance-searchoption-3</itextId>
+            <name>endswith</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/ILRG_Hluvukani_F_parcels/start" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/ILRG_Hluvukani_F_parcels/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/ILRG_Hluvukani_F_parcels/deviceid" type="string"/>
+      <bind calculate="&quot;Formulário F - Registo de Parcelas&quot;" nodeset="/ILRG_Hluvukani_F_parcels/my_form_name" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg1/logo" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg1/cavateco" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/intronote" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/tec_name" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg2" relevant=" /ILRG_Hluvukani_F_parcels/tec_name ='other'"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_F_parcels/Fg2/tec_given_name" required="true()" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâê]{1,25}$&quot;)" nodeset="/ILRG_Hluvukani_F_parcels/Fg2/tec_family_name" required="true()" type="string"/>
+      <bind calculate="&quot;P10&quot;" nodeset="/ILRG_Hluvukani_F_parcels/prov_id" type="string"/>
+      <bind calculate="&quot;D1004&quot;" nodeset="/ILRG_Hluvukani_F_parcels/dist_id" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/date" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/region_id" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/block_id" required="true()" type="select1"/>
+      <bind constraint="regex(.,'[0-9]{6}')" nodeset="/ILRG_Hluvukani_F_parcels/receipt_id" required="true()" type="string"/>
+      <bind constraint=".= /ILRG_Hluvukani_F_parcels/receipt_id " jr:constraintMsg="O número do recibo que reentrou não corresponde à sua primeira entrada. Faça a favor de verificar de novo." nodeset="/ILRG_Hluvukani_F_parcels/receipt_id_check" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/occup_type" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/norm_type" relevant=" /ILRG_Hluvukani_F_parcels/occup_type ='customary'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/zone_exclusion_y_n" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg3" relevant=" /ILRG_Hluvukani_F_parcels/zone_exclusion_y_n = 'yes'"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg3/zone_overlap" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg3/zone_type" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/conflict_y_n" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg4" relevant=" /ILRG_Hluvukani_F_parcels/conflict_y_n = 'yes'"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg4/conflict_type" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,255}$&quot;)" jr:constraintMsg="Parágrafos não são permitidos. Por favor, eliminar quaisquer linhas extras." nodeset="/ILRG_Hluvukani_F_parcels/Fg4/conflict_description" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg4/solved_y_n" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg5/use_category" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg5/uses" required="true()" type="select"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Fg5/use_prin" required="true()" type="select1"/>
+      <bind constraint=".&gt;0" nodeset="/ILRG_Hluvukani_F_parcels/rights_holder_number" required="true()" type="int"/>
+      <bind calculate=" /ILRG_Hluvukani_F_parcels/rights_holder_number " nodeset="/ILRG_Hluvukani_F_parcels/right_holders_count" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/searchtext" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/right_holder" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/party_role" relevant=" /ILRG_Hluvukani_F_parcels/right_holders/right_holder = 'party_id_key'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/rep_relation" relevant=" /ILRG_Hluvukani_F_parcels/right_holders/party_role = 'representative_minor' or  /ILRG_Hluvukani_F_parcels/right_holders/party_role = 'representative_absent'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/new_holder_y_n" required="true()" type="select1"/>
+      <bind constraint=".&gt;0" nodeset="/ILRG_Hluvukani_F_parcels/reg_new_holder_number" relevant=" /ILRG_Hluvukani_F_parcels/new_holder_y_n = 'yes'" required="true()" type="int"/>
+      <bind calculate=" /ILRG_Hluvukani_F_parcels/reg_new_holder_number " nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders_count" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/family_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/given_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/other_name" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/mother_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/father_name" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/gender" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/civil" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/birthplace" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate_y_n" required="true()" type="select1"/>
+      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate_y_n  = 'yes'" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/age_range" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate_y_n  = 'no'" required="true()" type="select1"/>
+      <bind calculate="int((today() -  /ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate ) div 365.24)" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/age_years" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/note_age" readonly="true()" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/age_years &lt; 18 or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'minor'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/age_years &gt;= 18 or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'youth' or or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'adult' or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'elder'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/rep_relation_1" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1 = 'representative_minor' or  /ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1 = 'representative_absent'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_document" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_number" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_place_issued" type="string"/>
+      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_issued" type="date"/>
+      <bind constraint=". &gt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_validity" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_permanent" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/neighbourhood" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/city_block" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/house_number" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n" type="select1"/>
+      <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n  = 'yes'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo_note" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/signature" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_note" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_front" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_back" type="binary"/>
+      <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_tel" type="string"/>
+      <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_email" type="string"/>
+      <bind constraint=".&gt;=1" jr:constraintMsg="Tem que ter pelos menos uma testamunha" nodeset="/ILRG_Hluvukani_F_parcels/witness_number" required="true()" type="int"/>
+      <bind calculate=" /ILRG_Hluvukani_F_parcels/witness_number " nodeset="/ILRG_Hluvukani_F_parcels/witnesses_count" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/searchtext_1" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/witness" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/witness_type" relevant=" /ILRG_Hluvukani_F_parcels/witnesses/witness = 'party_id_key'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/new_witness_y_n" required="true()" type="select1"/>
+      <bind constraint=".&gt;0" nodeset="/ILRG_Hluvukani_F_parcels/reg_new_witness_number" relevant=" /ILRG_Hluvukani_F_parcels/new_witness_y_n = 'yes'" required="true()" type="int"/>
+      <bind calculate=" /ILRG_Hluvukani_F_parcels/reg_new_witness_number " nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses_count" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/family_name_1" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/given_name_1" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/other_name_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/mother_name_1" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/father_name_1" required="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/gender_1" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/civil_1" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/birthplace_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1" required="true()" type="select1"/>
+      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'yes'" required="true()" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'no'" required="true()" type="select1"/>
+      <bind calculate="int((today() -  /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1 ) div 365.24)" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/note_age_1" readonly="true()" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1 &lt; 18 or  /ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1 = 'minor'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_document_1" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_number_1" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_place_issued_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_issued_1" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_validity_1" type="date"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_permanent_1" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/neighbourhood_1" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/city_block_1" type="string"/>
+      <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/house_number_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1" type="select1"/>
+      <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1  = 'yes'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_note_1" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_1" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/signature_1" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_note_1" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_front_1" required="true()" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_back_1" type="binary"/>
+      <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_tel_1" type="string"/>
+      <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_email_1" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/witness_type" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/auto_gps" required="true()" type="geopoint"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/limits_y_n" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Pontos" relevant=" /ILRG_Hluvukani_F_parcels/limits_y_n = 'yes'"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/Pontos/auto_gps_limit" required="true()" type="geopoint"/>
+      <bind calculate="concat( /ILRG_Hluvukani_F_parcels/receipt_id ,'point')" nodeset="/ILRG_Hluvukani_F_parcels/Pontos/upn_gps_limit" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/endnote" readonly="true()" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/receipt_image" required="true()" type="binary"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ILRG_Hluvukani_F_parcels/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/ILRG_Hluvukani_F_parcels/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat('parcelas','_', /ILRG_Hluvukani_F_parcels/region_id ,'_', /ILRG_Hluvukani_F_parcels/block_id ,'_', /ILRG_Hluvukani_F_parcels/receipt_id )" nodeset="/ILRG_Hluvukani_F_parcels/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/Fg1">
+      <input ref="/ILRG_Hluvukani_F_parcels/Fg1/logo">
+        <label ref="jr:itext('/ILRG_Hluvukani_F_parcels/Fg1/logo:label')"/>
+      </input>
+      <input ref="/ILRG_Hluvukani_F_parcels/Fg1/cavateco">
+        <label>&lt;br/&gt; &lt;h1&gt;Projecto de Governação Integrada de Terra e Recursos&lt;/h1&gt;&lt;br/&gt; &lt;h2&gt;Uma iniciativa da USAID implementada pela Cooperativa Hluvukani Varimi Manhiça, Maragra Açucar SA e Terra Firma&lt;/h2&gt;&lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_F_parcels/my_form_name "/>&lt;/span&gt; &lt;br/&gt;</label>
+      </input>
+    </group>
+    <input ref="/ILRG_Hluvukani_F_parcels/intronote">
+      <label>&lt;br/&gt; &lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /ILRG_Hluvukani_F_parcels/my_form_name "/>&lt;/span&gt; &lt;br/&gt; 
+
+Este formulário é utilizado para identificar as parcelas que serão certificadas pela Cooperativa Hluvukani Varimi Manhiça. 
+
+O técnico pode usar o formulário para fazer registo da parcela no campo: a forma de obtenção, o uso, os limites e o(s) titular(es) e testemunhas.
+
+O(s) nome(s) do(s) titular(es) e testemunhas podem ser selecionados duma lista de pessoas que já foram registados. Se aparecem novas pessoas como titulares ou testemunhas, os nomes e detalhes deles podem ser adicionados utilizando este mesmo formulário.
+
+Está permitido a demarcação/identificação das parcelas por pessoas que não são os proprietários, quando estes estão ausentes. Mas o formulário sempre exige a captura do(s) nome(s) dos próprios proprietários (titulares). 
+
+O formulário é usado junto com os mapas para identificar os limites de parcela. Os limites devem ser indicados no mapa, e o formulário também permite a gravação das coordenadas geográficas dos limites, quando necessário. 
+
+No fim do formulário, o técnico deve preencher um recibo, tirar uma imagem do recibo, e entregar lo ao titular. 
+
+Por favor deslizar para a frente para continuar.</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/tec_name">
+      <label>Introduza o seu nome&lt;br&gt;&lt;br&gt; Nome do(a) técnico(a):</label>
+      <item>
+        <label>Armando Zuana</label>
+        <value>Armando_Zuana</value>
+      </item>
+      <item>
+        <label>Boaventura Jovo</label>
+        <value>Boaventura_Jovo</value>
+      </item>
+      <item>
+        <label>Carlos Mujovo</label>
+        <value>Carlos_Mujovo</value>
+      </item>
+      <item>
+        <label>Edson Ernesto</label>
+        <value>Edson_Ernesto</value>
+      </item>
+      <item>
+        <label>Efigencia Mavondza</label>
+        <value>Efigencia_Mavondza</value>
+      </item>
+      <item>
+        <label>Gercia Mabunda</label>
+        <value>Gercia_Mabunda</value>
+      </item>
+      <item>
+        <label>Helena Bila</label>
+        <value>Helena_Bila</value>
+      </item>
+      <item>
+        <label>Irene Timana</label>
+        <value>Irene_Timana</value>
+      </item>
+      <item>
+        <label>Julio Manheia</label>
+        <value>Julio_Manheia</value>
+      </item>
+      <item>
+        <label>Raquel Ambasse</label>
+        <value>Raquel_Ambasse</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/Fg2">
+      <label>Novo nome do(a) técnico(a):</label>
+      <input ref="/ILRG_Hluvukani_F_parcels/Fg2/tec_given_name">
+        <label>Escreve o seu nome se não apareceu na lista</label>
+      </input>
+      <input ref="/ILRG_Hluvukani_F_parcels/Fg2/tec_family_name">
+        <label>Escreve o seu apelido se não apareceu na lista</label>
+      </input>
+    </group>
+    <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/date">
+      <label>Data do registo:</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/region_id">
+      <label>Selecionar a região (Norte, Central ou Sul)</label>
+      <item>
+        <label>Norte</label>
+        <value>RN</value>
+      </item>
+      <item>
+        <label>Central</label>
+        <value>RC</value>
+      </item>
+      <item>
+        <label>Sul</label>
+        <value>RS</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/block_id">
+      <label>Selecionar o bloco</label>
+      <itemset nodeset="instance('blocks')/root/item[region_id= /ILRG_Hluvukani_F_parcels/region_id ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/receipt_id">
+      <label>Qual é o numero do recibo?</label>
+    </input>
+    <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/receipt_id_check">
+      <label>Por favor, re-digite o número do recibo como confirmação:</label>
+    </input>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/occup_type">
+      <label>Qual é a origem do DUAT?</label>
+      <item>
+        <label>Ocupação de boa fé (pelo menos 10 anos)</label>
+        <value>good_faith</value>
+      </item>
+      <item>
+        <label>Atraves de Normas e Práticas Costumeiras</label>
+        <value>customary</value>
+      </item>
+      <item>
+        <label>Reassentamento</label>
+        <value>resettlement</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/norm_type">
+      <label>Sendo através de normas e práticas costumeiras, qual foi a forma de obtenção da parcela?</label>
+      <item>
+        <label>Através do Regulo ou autoridade tradicional</label>
+        <value>traditional</value>
+      </item>
+      <item>
+        <label>Doação de alguém</label>
+        <value>donation</value>
+      </item>
+      <item>
+        <label>Herança da família</label>
+        <value>inheritance</value>
+      </item>
+      <item>
+        <label>Compra de Benfeitorias</label>
+        <value>purchase</value>
+      </item>
+      <item>
+        <label>Transmissão</label>
+        <value>transfer</value>
+      </item>
+      <item>
+        <label>Outro</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/zone_exclusion_y_n">
+      <label>A parcela está localizada numa zona de exclusão?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/Fg3">
+      <label>Detalhes de zona</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg3/zone_overlap">
+        <label>É apenas uma parte da parcela dentro da zona de exclusão ou toda a parcela?</label>
+        <item>
+          <label>Parcialmente dentro</label>
+          <value>partial</value>
+        </item>
+        <item>
+          <label>Totalmente dentro</label>
+          <value>total</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg3/zone_type">
+        <label>Que tipo de zona de exclusão?</label>
+        <item>
+          <label>Protecção Parcial</label>
+          <value>partial</value>
+        </item>
+        <item>
+          <label>Protecção Total</label>
+          <value>total</value>
+        </item>
+        <item>
+          <label>Zona de Inundação</label>
+          <value>flood</value>
+        </item>
+        <item>
+          <label>Zona de Erosão</label>
+          <value>erosion</value>
+        </item>
+      </select1>
+    </group>
+    <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/conflict_y_n">
+      <label>Existe ou existia um conflito ou disputa sobre a parcela?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/Fg4">
+      <label>Detalhes de conflito ou disputa</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg4/conflict_type">
+        <label>Que tipo de conflito ou disputa?</label>
+        <item>
+          <label>Trespasse</label>
+          <value>transfer</value>
+        </item>
+        <item>
+          <label>Titularidade</label>
+          <value>title</value>
+        </item>
+        <item>
+          <label>Limites</label>
+          <value>limits</value>
+        </item>
+        <item>
+          <label>Acesso</label>
+          <value>access</value>
+        </item>
+        <item>
+          <label>Outro</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/ILRG_Hluvukani_F_parcels/Fg4/conflict_description">
+        <label>Breve descrição de conflito ou disputa:</label>
+      </input>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg4/solved_y_n">
+        <label>O conflito ou disputa sobre a parcela está resolvido?</label>
+        <item>
+          <label>Sim</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>Não</label>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/Fg5">
+      <label>Detalhes de uso</label>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg5/use_category">
+        <label>Forma de uso:</label>
+        <item>
+          <label>Exploração Familiar</label>
+          <value>family_use</value>
+        </item>
+        <item>
+          <label>Exploração Comercial</label>
+          <value>commercial_use</value>
+        </item>
+        <item>
+          <label>Outro</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <select appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg5/uses">
+        <label>Usos:</label>
+        <item>
+          <label>Agricultura</label>
+          <value>cropping</value>
+        </item>
+        <item>
+          <label>Agropecuária</label>
+          <value>mixed_farming</value>
+        </item>
+        <item>
+          <label>Comércio/Industria/Serviços</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Culturas Permanentes</label>
+          <value>permanent_crop</value>
+        </item>
+        <item>
+          <label>Fins Comunitários</label>
+          <value>community</value>
+        </item>
+        <item>
+          <label>Fins Sociais/Religiosos</label>
+          <value>social</value>
+        </item>
+        <item>
+          <label>Habitação Propria</label>
+          <value>residential</value>
+        </item>
+        <item>
+          <label>Habitação Veraneio</label>
+          <value>residential_holiday</value>
+        </item>
+        <item>
+          <label>Habitação e Comercio</label>
+          <value>residential_commercial</value>
+        </item>
+        <item>
+          <label>Pecuária Gado Bovino</label>
+          <value>cattle_rearing</value>
+        </item>
+        <item>
+          <label>Pecuária Outro</label>
+          <value>other_livestock</value>
+        </item>
+        <item>
+          <label>Outro</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/Fg5/use_prin">
+        <label>Qual é o uso principal?</label>
+        <item>
+          <label>Agricultura</label>
+          <value>cropping</value>
+        </item>
+        <item>
+          <label>Agropecuária</label>
+          <value>mixed_farming</value>
+        </item>
+        <item>
+          <label>Comércio/Industria/Serviços</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Culturas Permanentes</label>
+          <value>permanent_crop</value>
+        </item>
+        <item>
+          <label>Fins Comunitários</label>
+          <value>community</value>
+        </item>
+        <item>
+          <label>Fins Sociais/Religiosos</label>
+          <value>social</value>
+        </item>
+        <item>
+          <label>Habitação Propria</label>
+          <value>residential</value>
+        </item>
+        <item>
+          <label>Habitação Veraneio</label>
+          <value>residential_holiday</value>
+        </item>
+        <item>
+          <label>Habitação e Comercio</label>
+          <value>residential_commercial</value>
+        </item>
+        <item>
+          <label>Pecuária Gado Bovino</label>
+          <value>cattle_rearing</value>
+        </item>
+        <item>
+          <label>Pecuária Outro</label>
+          <value>other_livestock</value>
+        </item>
+        <item>
+          <label>Outro</label>
+          <value>other</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/ILRG_Hluvukani_F_parcels/rights_holder_number">
+      <label>Quantos titulares tem a parcela? Se for apenas uma pessoa, digite '1'</label>
+    </input>
+    <group ref="/ILRG_Hluvukani_F_parcels/right_holders">
+      <label>Titulares</label>
+      <repeat jr:count=" /ILRG_Hluvukani_F_parcels/right_holders_count " nodeset="/ILRG_Hluvukani_F_parcels/right_holders">
+        <input ref="/ILRG_Hluvukani_F_parcels/right_holders/searchtext">
+          <label>Titulares - digite as primeiras letras do nome a ser pesquisada da lista de pessoas já registadas:</label>
+        </input>
+        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/right_holders/searchtext , 'block_id_key',  /ILRG_Hluvukani_F_parcels/block_id )" ref="/ILRG_Hluvukani_F_parcels/right_holders/right_holder">
+          <label>Selecionar o nome do titular:</label>
+          <item>
+            <label>party_name</label>
+            <value>party_id_key</value>
+          </item>
+          <item>
+            <label>Outro nome (não está na lista)</label>
+            <value>1</value>
+          </item>
+        </select1>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/right_holders/party_role">
+          <label>Esta pessoa é o titular, ou o(a) representante duma pessoa menor, ou representante duma pessoa ausente?</label>
+          <item>
+            <label>Titular</label>
+            <value>right_holder</value>
+          </item>
+          <item>
+            <label>Representante duma pessoa menor</label>
+            <value>representative_minor</value>
+          </item>
+          <item>
+            <label>Representante duma pessoa ausente</label>
+            <value>representative_absent</value>
+          </item>
+        </select1>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/right_holders/rep_relation">
+          <label>Relação com o titular:</label>
+          <item>
+            <label>Administrador</label>
+            <value>administrator</value>
+          </item>
+          <item>
+            <label>Administrador delegado</label>
+            <value>administrator_designate</value>
+          </item>
+          <item>
+            <label>Advogado</label>
+            <value>lawyer</value>
+          </item>
+          <item>
+            <label>Amigo(a)</label>
+            <value>friend</value>
+          </item>
+          <item>
+            <label>Avo(avó)</label>
+            <value>grandparent</value>
+          </item>
+          <item>
+            <label>Cunhado(a)</label>
+            <value>brother_in_law</value>
+          </item>
+          <item>
+            <label>Diretor geral</label>
+            <value>director_general</value>
+          </item>
+          <item>
+            <label>Empregado(a)</label>
+            <value>employee</value>
+          </item>
+          <item>
+            <label>Enteado(a)</label>
+            <value>stepson</value>
+          </item>
+          <item>
+            <label>Esposo(a)</label>
+            <value>husband</value>
+          </item>
+          <item>
+            <label>Filho(a)</label>
+            <value>son</value>
+          </item>
+          <item>
+            <label>Genro(Nora)</label>
+            <value>son_in_law</value>
+          </item>
+          <item>
+            <label>Gerente</label>
+            <value>manager</value>
+          </item>
+          <item>
+            <label>Guarda</label>
+            <value>guard</value>
+          </item>
+          <item>
+            <label>Inquilino(a)</label>
+            <value>tenant</value>
+          </item>
+          <item>
+            <label>Irmã(o)</label>
+            <value>brother</value>
+          </item>
+          <item>
+            <label>Madrasta</label>
+            <value>stepmother</value>
+          </item>
+          <item>
+            <label>Mãe</label>
+            <value>mother</value>
+          </item>
+          <item>
+            <label>Membro</label>
+            <value>member</value>
+          </item>
+          <item>
+            <label>Neto(a)</label>
+            <value>grandson</value>
+          </item>
+          <item>
+            <label>Padrasto</label>
+            <value>stepfather</value>
+          </item>
+          <item>
+            <label>Pai</label>
+            <value>father</value>
+          </item>
+          <item>
+            <label>PCA</label>
+            <value>pca</value>
+          </item>
+          <item>
+            <label>Presidente</label>
+            <value>president</value>
+          </item>
+          <item>
+            <label>Primo(a)</label>
+            <value>cousin</value>
+          </item>
+          <item>
+            <label>Representante legal</label>
+            <value>legal_rep</value>
+          </item>
+          <item>
+            <label>Sobrinho(a)</label>
+            <value>nephew</value>
+          </item>
+          <item>
+            <label>Socio(a)</label>
+            <value>partner</value>
+          </item>
+          <item>
+            <label>Sogro(a)</label>
+            <value>father_in_law</value>
+          </item>
+          <item>
+            <label>Tio(a)</label>
+            <value>uncle</value>
+          </item>
+          <item>
+            <label>Trabalhador(a)</label>
+            <value>worker</value>
+          </item>
+          <item>
+            <label>Tutor de menor</label>
+            <value>tutor</value>
+          </item>
+          <item>
+            <label>Vice Presidente</label>
+            <value>vice_president</value>
+          </item>
+          <item>
+            <label>Outro</label>
+            <value>other</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+    <select1 ref="/ILRG_Hluvukani_F_parcels/new_holder_y_n">
+      <label>Quer fazer registo dum(a) titular da parcela, ou representante, cujo nome não apareceu na lista? &lt;br/&gt; &lt;br/&gt; 
+
+&lt;span style=&quot;color:#FF0000&quot;&gt;Se não for encontrado nenhum dos nomes dos titulares, TEM QUE RESPONDER 'SIM', E FAZER O REGISTO DE PELO MENOS UM NOME AQUI!!&lt;/span&gt;</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/ILRG_Hluvukani_F_parcels/reg_new_holder_number">
+      <label>Quantos pessoas ainda não registadas são? Se for apenas uma pessoa, digite '1'</label>
+    </input>
+    <group ref="/ILRG_Hluvukani_F_parcels/add_rights_holders">
+      <label>Novos Titulares</label>
+      <repeat jr:count=" /ILRG_Hluvukani_F_parcels/add_rights_holders_count " nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders">
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6">
+          <label>Nomes de pessoa e familiares</label>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/family_name">
+            <label>Qual é o apelido da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/given_name">
+            <label>Qual é o nome da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/other_name">
+            <label>Qual é a outro nome da pessoa, se tiver?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/mother_name">
+            <label>Qual é o nome completo da mãe da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg6/father_name">
+            <label>Qual é o nome completo do pai da pessoa?</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7">
+          <label>Detalhes de pessoa</label>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/gender">
+            <label>Qual é o género da pessoa?</label>
+            <item>
+              <label>Masculino</label>
+              <value>male</value>
+            </item>
+            <item>
+              <label>Feminino</label>
+              <value>female</value>
+            </item>
+          </select1>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/civil">
+            <label>Escolhe o estado civil da pessoa:</label>
+            <item>
+              <label>Solteiro (a)</label>
+              <value>single</value>
+            </item>
+            <item>
+              <label>União de Facto</label>
+              <value>de_facto_union</value>
+            </item>
+            <item>
+              <label>Casado (a)</label>
+              <value>married</value>
+            </item>
+            <item>
+              <label>Divorciado (a)</label>
+              <value>divorced</value>
+            </item>
+            <item>
+              <label>Viúvo (a)</label>
+              <value>widowed</value>
+            </item>
+          </select1>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg7/birthplace">
+            <label>Qual é a naturalidade da pessoa?</label>
+          </input>
+        </group>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate_y_n">
+          <label>A pessoa conhece a data de nascimento ou a data está disponível através do documento?</label>
+          <item>
+            <label>Sim</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Não</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate">
+          <label>Data de nascimento:</label>
+        </input>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/age_range">
+          <label>Qual é a idade da pessoa?</label>
+          <item>
+            <label>Menos de 18 anos</label>
+            <value>minor</value>
+          </item>
+          <item>
+            <label>Entre 18 - 30 anos</label>
+            <value>youth</value>
+          </item>
+          <item>
+            <label>Entre 30 - 50 anos</label>
+            <value>adult</value>
+          </item>
+          <item>
+            <label>50+ anos</label>
+            <value>elder</value>
+          </item>
+        </select1>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/note_age">
+          <label>A pessoa possui <output value=" /ILRG_Hluvukani_F_parcels/add_rights_holders/age_years "/> anos, ou menos de 18 anos. &lt;br/&gt;&lt;br/&gt;Esta pessoa não pode adquirir um DUAT, porque ainda é menor.&lt;br/&gt;&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O(A) enumerador pode continuar a fazer o registo desta pessoa menor, mas deve também fazer registo duma outra pessoa, maior de que 18 anos, que pode actuar como representante para fins de registo de parcela. 
+
+A outra pessoa pode ser registada através deste formulário.&lt;/span&gt;</label>
+        </input>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1">
+          <label>Esta pessoa é o titular, ou o(a) representante duma pessoa menor, ou representante duma pessoa ausente?</label>
+          <item>
+            <label>Titular</label>
+            <value>right_holder</value>
+          </item>
+          <item>
+            <label>Representante duma pessoa menor</label>
+            <value>representative_minor</value>
+          </item>
+          <item>
+            <label>Representante duma pessoa ausente</label>
+            <value>representative_absent</value>
+          </item>
+        </select1>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/rep_relation_1">
+          <label>Relação com o titular:</label>
+          <item>
+            <label>Administrador</label>
+            <value>administrator</value>
+          </item>
+          <item>
+            <label>Administrador delegado</label>
+            <value>administrator_designate</value>
+          </item>
+          <item>
+            <label>Advogado</label>
+            <value>lawyer</value>
+          </item>
+          <item>
+            <label>Amigo(a)</label>
+            <value>friend</value>
+          </item>
+          <item>
+            <label>Avo(avó)</label>
+            <value>grandparent</value>
+          </item>
+          <item>
+            <label>Cunhado(a)</label>
+            <value>brother_in_law</value>
+          </item>
+          <item>
+            <label>Diretor geral</label>
+            <value>director_general</value>
+          </item>
+          <item>
+            <label>Empregado(a)</label>
+            <value>employee</value>
+          </item>
+          <item>
+            <label>Enteado(a)</label>
+            <value>stepson</value>
+          </item>
+          <item>
+            <label>Esposo(a)</label>
+            <value>husband</value>
+          </item>
+          <item>
+            <label>Filho(a)</label>
+            <value>son</value>
+          </item>
+          <item>
+            <label>Genro(Nora)</label>
+            <value>son_in_law</value>
+          </item>
+          <item>
+            <label>Gerente</label>
+            <value>manager</value>
+          </item>
+          <item>
+            <label>Guarda</label>
+            <value>guard</value>
+          </item>
+          <item>
+            <label>Inquilino(a)</label>
+            <value>tenant</value>
+          </item>
+          <item>
+            <label>Irmã(o)</label>
+            <value>brother</value>
+          </item>
+          <item>
+            <label>Madrasta</label>
+            <value>stepmother</value>
+          </item>
+          <item>
+            <label>Mãe</label>
+            <value>mother</value>
+          </item>
+          <item>
+            <label>Membro</label>
+            <value>member</value>
+          </item>
+          <item>
+            <label>Neto(a)</label>
+            <value>grandson</value>
+          </item>
+          <item>
+            <label>Padrasto</label>
+            <value>stepfather</value>
+          </item>
+          <item>
+            <label>Pai</label>
+            <value>father</value>
+          </item>
+          <item>
+            <label>PCA</label>
+            <value>pca</value>
+          </item>
+          <item>
+            <label>Presidente</label>
+            <value>president</value>
+          </item>
+          <item>
+            <label>Primo(a)</label>
+            <value>cousin</value>
+          </item>
+          <item>
+            <label>Representante legal</label>
+            <value>legal_rep</value>
+          </item>
+          <item>
+            <label>Sobrinho(a)</label>
+            <value>nephew</value>
+          </item>
+          <item>
+            <label>Socio(a)</label>
+            <value>partner</value>
+          </item>
+          <item>
+            <label>Sogro(a)</label>
+            <value>father_in_law</value>
+          </item>
+          <item>
+            <label>Tio(a)</label>
+            <value>uncle</value>
+          </item>
+          <item>
+            <label>Trabalhador(a)</label>
+            <value>worker</value>
+          </item>
+          <item>
+            <label>Tutor de menor</label>
+            <value>tutor</value>
+          </item>
+          <item>
+            <label>Vice Presidente</label>
+            <value>vice_president</value>
+          </item>
+          <item>
+            <label>Outro</label>
+            <value>other</value>
+          </item>
+        </select1>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8">
+          <label>Detalhes de documentos</label>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_document">
+            <label>Tipo de documento de identificação:</label>
+            <item>
+              <label>Bilhete de Identidade</label>
+              <value>identity_document</value>
+            </item>
+            <item>
+              <label>Talão do BI</label>
+              <value>identity_receipt</value>
+            </item>
+            <item>
+              <label>Cartão de Eleitor</label>
+              <value>voter_card</value>
+            </item>
+            <item>
+              <label>Cédula Pessoal</label>
+              <value>personal_ballot</value>
+            </item>
+            <item>
+              <label>Declaração (Documento de Testemunhas)</label>
+              <value>declaration</value>
+            </item>
+            <item>
+              <label>Cartão de Desmobilização/Cartão Militar</label>
+              <value>demobilization_card</value>
+            </item>
+            <item>
+              <label>Passaporte</label>
+              <value>passport</value>
+            </item>
+            <item>
+              <label>Carta de Condução</label>
+              <value>driving_licence</value>
+            </item>
+            <item>
+              <label>Cartão de pagamento de imposto</label>
+              <value>tax_payment_card</value>
+            </item>
+            <item>
+              <label>NUIT</label>
+              <value>nuit</value>
+            </item>
+            <item>
+              <label>outro</label>
+              <value>other</value>
+            </item>
+          </select1>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_number">
+            <label>Numero de documento:</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_place_issued">
+            <label>Local de Emissão:</label>
+          </input>
+          <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_issued">
+            <label>Emissão:</label>
+          </input>
+          <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_validity">
+            <label>Validade:</label>
+          </input>
+          <select1 ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_permanent">
+            <label>Será que o BI é vitalício?</label>
+            <item>
+              <label>Sim</label>
+              <value>yes</value>
+            </item>
+            <item>
+              <label>Não</label>
+              <value>no</value>
+            </item>
+          </select1>
+        </group>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9">
+          <label>Detalhes de residencia</label>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/neighbourhood">
+            <label>Nome do Bairro:</label>
+          </input>
+          <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/city_block">
+            <label>Numero de Quarteirão:</label>
+          </input>
+          <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/house_number">
+            <label>Numero de Casa:</label>
+          </input>
+        </group>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n">
+          <label>Será que a pessoa tem NUIT?</label>
+          <item>
+            <label>Sim</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Não</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit">
+          <label>Qual é o numero do NUIT?</label>
+        </input>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo_note">
+          <label ref="jr:itext('/ILRG_Hluvukani_F_parcels/add_rights_holders/photo_note:label')"/>
+        </input>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo">
+          <label>Tire uma fotografia da pessoa</label>
+        </upload>
+        <upload appearance="signature" mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/signature">
+          <label>Assinatura da pessoa</label>
+        </upload>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_note">
+          <label ref="jr:itext('/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_note:label')"/>
+        </input>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_front">
+          <label>Tire uma fotografia do documento de identificação apresentado</label>
+        </upload>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_back">
+          <label>Tire uma fotografia do &lt;span style=&quot;color:#FF0000&quot;&gt;verso&lt;/span&gt; do documento de identificação apresentado (no caso de BI)</label>
+        </upload>
+        <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_tel">
+          <label>Numero de telemóvel:</label>
+        </input>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_email">
+          <label>Endereço do email:</label>
+        </input>
+      </repeat>
+    </group>
+    <input ref="/ILRG_Hluvukani_F_parcels/witness_number">
+      <label>Quantas testemunhos estão presentes?</label>
+    </input>
+    <group ref="/ILRG_Hluvukani_F_parcels/witnesses">
+      <label>Testemunhos</label>
+      <repeat jr:count=" /ILRG_Hluvukani_F_parcels/witnesses_count " nodeset="/ILRG_Hluvukani_F_parcels/witnesses">
+        <input ref="/ILRG_Hluvukani_F_parcels/witnesses/searchtext_1">
+          <label>Testemunhos - digite as primeiras letras do nome a ser pesquisada da lista de pessoas já registadas:</label>
+        </input>
+        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/right_holders/searchtext , 'block_id_key',  /ILRG_Hluvukani_F_parcels/block_id )" ref="/ILRG_Hluvukani_F_parcels/witnesses/witness">
+          <label>Selecionar o nome do testemunho(a):</label>
+          <item>
+            <label>party_name</label>
+            <value>party_id_key</value>
+          </item>
+          <item>
+            <label>Outro nome (não está na lista)</label>
+            <value>1</value>
+          </item>
+        </select1>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/witnesses/witness_type">
+          <label>Categoria da testemunha</label>
+          <item>
+            <label>Chefe da Zona ou Povoado</label>
+            <value>authority</value>
+          </item>
+          <item>
+            <label>Representante da Associação/Cooperativa Hluvukani</label>
+            <value>assoc_rep</value>
+          </item>
+          <item>
+            <label>Vizinho directo</label>
+            <value>direct_neighbour</value>
+          </item>
+          <item>
+            <label>Vizinho perto</label>
+            <value>nearby_neighbour</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+    <select1 ref="/ILRG_Hluvukani_F_parcels/new_witness_y_n">
+      <label>Quer fazer registo dum(a) testemunho(a), cujo nome não apareceu na lista?&lt;br/&gt; &lt;br/&gt; 
+
+&lt;span style=&quot;color:#FF0000&quot;&gt;Se não for encontrado nenhum dos nomes dos testemunhos, TEM QUE RESPONDER 'SIM', E FAZER O REGISTO DE PELO MENOS UM NOME AQUI!!&lt;/span&gt;</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/ILRG_Hluvukani_F_parcels/reg_new_witness_number">
+      <label>Quantos pessoas ainda não registadas são? Se for apenas uma pessoa, digite '1'</label>
+    </input>
+    <group ref="/ILRG_Hluvukani_F_parcels/add_witnesses">
+      <label>Novos Testemunhos</label>
+      <repeat jr:count=" /ILRG_Hluvukani_F_parcels/add_witnesses_count " nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses">
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10">
+          <label>Nomes de pessoa e familiares</label>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/family_name_1">
+            <label>Qual é o apelido da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/given_name_1">
+            <label>Qual é o nome da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/other_name_1">
+            <label>Qual é a outro nome da pessoa, se tiver?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/mother_name_1">
+            <label>Qual é o nome completo da mãe da pessoa?</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg10/father_name_1">
+            <label>Qual é o nome completo do pai da pessoa?</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11">
+          <label>Detalhes de pessoa</label>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/gender_1">
+            <label>Qual é o género da pessoa?</label>
+            <item>
+              <label>Masculino</label>
+              <value>male</value>
+            </item>
+            <item>
+              <label>Feminino</label>
+              <value>female</value>
+            </item>
+          </select1>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/civil_1">
+            <label>Escolhe o estado civil da pessoa:</label>
+            <item>
+              <label>Solteiro (a)</label>
+              <value>single</value>
+            </item>
+            <item>
+              <label>União de Facto</label>
+              <value>de_facto_union</value>
+            </item>
+            <item>
+              <label>Casado (a)</label>
+              <value>married</value>
+            </item>
+            <item>
+              <label>Divorciado (a)</label>
+              <value>divorced</value>
+            </item>
+            <item>
+              <label>Viúvo (a)</label>
+              <value>widowed</value>
+            </item>
+          </select1>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/birthplace_1">
+            <label>Qual é a naturalidade da pessoa?</label>
+          </input>
+        </group>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1">
+          <label>A pessoa conhece a data de nascimento ou a data está disponível através do documento?</label>
+          <item>
+            <label>Sim</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Não</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1">
+          <label>Data de nascimento:</label>
+        </input>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1">
+          <label>Qual é a idade da pessoa?</label>
+          <item>
+            <label>Menos de 18 anos</label>
+            <value>minor</value>
+          </item>
+          <item>
+            <label>Entre 18 - 30 anos</label>
+            <value>youth</value>
+          </item>
+          <item>
+            <label>Entre 30 - 50 anos</label>
+            <value>adult</value>
+          </item>
+          <item>
+            <label>50+ anos</label>
+            <value>elder</value>
+          </item>
+        </select1>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/note_age_1">
+          <label>A pessoa possui <output value=" /ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1 "/> anos, ou menos de 18 anos. &lt;br/&gt;&lt;br/&gt;Esta pessoa não pode ser testemunho(a), porque ainda é menor.&lt;br/&gt;&lt;br/&gt; &lt;span style=&quot;color:#FF0000&quot;&gt;O(A) enumerador deve fazer registo duma outra pessoa, maior de que 18 anos.&lt;/span&gt;</label>
+        </input>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12">
+          <label>Detalhes de documentos</label>
+          <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_document_1">
+            <label>Tipo de documento de identificação:</label>
+            <item>
+              <label>Bilhete de Identidade</label>
+              <value>identity_document</value>
+            </item>
+            <item>
+              <label>Talão do BI</label>
+              <value>identity_receipt</value>
+            </item>
+            <item>
+              <label>Cartão de Eleitor</label>
+              <value>voter_card</value>
+            </item>
+            <item>
+              <label>Cédula Pessoal</label>
+              <value>personal_ballot</value>
+            </item>
+            <item>
+              <label>Declaração (Documento de Testemunhas)</label>
+              <value>declaration</value>
+            </item>
+            <item>
+              <label>Cartão de Desmobilização/Cartão Militar</label>
+              <value>demobilization_card</value>
+            </item>
+            <item>
+              <label>Passaporte</label>
+              <value>passport</value>
+            </item>
+            <item>
+              <label>Carta de Condução</label>
+              <value>driving_licence</value>
+            </item>
+            <item>
+              <label>Cartão de pagamento de imposto</label>
+              <value>tax_payment_card</value>
+            </item>
+            <item>
+              <label>NUIT</label>
+              <value>nuit</value>
+            </item>
+            <item>
+              <label>outro</label>
+              <value>other</value>
+            </item>
+          </select1>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_number_1">
+            <label>Numero de documento:</label>
+          </input>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_place_issued_1">
+            <label>Local de Emissão:</label>
+          </input>
+          <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_issued_1">
+            <label>Emissão:</label>
+          </input>
+          <input appearance="no-calendar" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_validity_1">
+            <label>Validade:</label>
+          </input>
+          <select1 ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_permanent_1">
+            <label>Será que o BI é vitalício?</label>
+            <item>
+              <label>Sim</label>
+              <value>yes</value>
+            </item>
+            <item>
+              <label>Não</label>
+              <value>no</value>
+            </item>
+          </select1>
+        </group>
+        <group appearance="field-list" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13">
+          <label>Detalhes de residencia</label>
+          <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/neighbourhood_1">
+            <label>Nome do Bairro:</label>
+          </input>
+          <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/city_block_1">
+            <label>Numero de Quarteirão:</label>
+          </input>
+          <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/house_number_1">
+            <label>Numero de Casa:</label>
+          </input>
+        </group>
+        <select1 ref="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1">
+          <label>Será que a pessoa tem NUIT?</label>
+          <item>
+            <label>Sim</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>Não</label>
+            <value>no</value>
+          </item>
+        </select1>
+        <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_1">
+          <label>Qual é o numero do NUIT?</label>
+        </input>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_note_1">
+          <label ref="jr:itext('/ILRG_Hluvukani_F_parcels/add_witnesses/photo_note_1:label')"/>
+        </input>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_1">
+          <label>Tire uma fotografia da pessoa</label>
+        </upload>
+        <upload appearance="signature" mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/signature_1">
+          <label>Assinatura da pessoa</label>
+        </upload>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_note_1">
+          <label ref="jr:itext('/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_note_1:label')"/>
+        </input>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_front_1">
+          <label>Tire uma fotografia do documento de identificação apresentado</label>
+        </upload>
+        <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_back_1">
+          <label>Tire uma fotografia do &lt;span style=&quot;color:#FF0000&quot;&gt;verso&lt;/span&gt; do documento de identificação apresentado (no caso de BI)</label>
+        </upload>
+        <input appearance="numbers" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_tel_1">
+          <label>Numero de telemóvel:</label>
+        </input>
+        <input ref="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_email_1">
+          <label>Endereço do email:</label>
+        </input>
+        <select1 appearance="minimal" ref="/ILRG_Hluvukani_F_parcels/add_witnesses/witness_type">
+          <label>Categoria da testemunha</label>
+          <item>
+            <label>Chefe da Zona ou Povoado</label>
+            <value>authority</value>
+          </item>
+          <item>
+            <label>Representante da Associação/Cooperativa Hluvukani</label>
+            <value>assoc_rep</value>
+          </item>
+          <item>
+            <label>Vizinho directo</label>
+            <value>direct_neighbour</value>
+          </item>
+          <item>
+            <label>Vizinho perto</label>
+            <value>nearby_neighbour</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+    <input ref="/ILRG_Hluvukani_F_parcels/auto_gps">
+      <label>É obrigatório gravar um ponto dentro da parcela, no centro.</label>
+      <hint>GPS coordinates can only be collected when outside.</hint>
+    </input>
+    <select1 ref="/ILRG_Hluvukani_F_parcels/limits_y_n">
+      <label>Será que é necessário gravar pontos de limites da parcela (porque não estão claros no mapa)?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <group ref="/ILRG_Hluvukani_F_parcels/Pontos">
+      <label>Pontos de limites</label>
+      <repeat nodeset="/ILRG_Hluvukani_F_parcels/Pontos">
+        <input ref="/ILRG_Hluvukani_F_parcels/Pontos/auto_gps_limit">
+          <label>Gravar um ponto</label>
+          <hint>Gravar um ponto a qualquer mudança de direcção, e pelo menos uma vez a cada dez metros. Lembrete: se a 'localização record' está levando algum tempo, por favor, verifique se a luz azul do seu Glo</hint>
+        </input>
+      </repeat>
+    </group>
+    <input ref="/ILRG_Hluvukani_F_parcels/endnote">
+      <label>Está quase no fim do formulário. 
+
+Agora pode preencher o recibo, tirar uma foto do recibo e entregar o original ao requerente. 
+
+A primeira copia do original vai para a Associação Comunitária.
+
+A segunda copia do original fica no livro de recibos.</label>
+    </input>
+    <upload mediatype="image/*" ref="/ILRG_Hluvukani_F_parcels/receipt_image">
+      <label>Tire uma fotografia do recibo</label>
+    </upload>
+  </h:body>
+</h:html>
