@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>ILRG Photo Submission</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/photo_submission/Ag1/logo:label">
+            <value form="image">jr://images/usaid.jpg</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <photo_submission id="ILRG_photo_submission" version="201908081">
+          <start/>
+          <deviceid/>
+          <my_form_name/>
+          <Ag1>
+            <logo/>
+            <cavateco/>
+          </Ag1>
+          <intronote/>
+          <name_photographer/>
+          <date/>
+          <partner/>
+          <topics/>
+          <map_point/>
+          <photo/>
+          <caption/>
+          <single_person/>
+          <name_subject/>
+          <consent/>
+          <consent_y_n/>
+          <end/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </photo_submission>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/photo_submission/start" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/photo_submission/deviceid" type="string"/>
+      <bind calculate="&quot;Submissão de Fotos&quot;" nodeset="/photo_submission/my_form_name" type="string"/>
+      <bind nodeset="/photo_submission/Ag1/logo" readonly="true()" type="string"/>
+      <bind nodeset="/photo_submission/Ag1/cavateco" readonly="true()" type="string"/>
+      <bind nodeset="/photo_submission/intronote" readonly="true()" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9 éáíóãõúçâê]{1,55}$&quot;)" nodeset="/photo_submission/name_photographer" required="true()" type="string"/>
+      <bind nodeset="/photo_submission/date" required="true()" type="date"/>
+      <bind nodeset="/photo_submission/partner" required="true()" type="select1"/>
+      <bind nodeset="/photo_submission/topics" required="true()" type="select"/>
+      <bind nodeset="/photo_submission/map_point" type="geopoint"/>
+      <bind nodeset="/photo_submission/photo" required="true()" type="binary"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9., _-éáíóãõúçâê]{1,255}$&quot;)" nodeset="/photo_submission/caption" required="true()" type="string"/>
+      <bind nodeset="/photo_submission/single_person" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9 éáíóãõúçâê]{1,55}$&quot;)" nodeset="/photo_submission/name_subject" required="true()" type="string"/>
+      <bind nodeset="/photo_submission/consent" required="true()" type="select1"/>
+      <bind nodeset="/photo_submission/consent_y_n" relevant=" /photo_submission/consent  = 'yes'" required="true()" type="select1"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/photo_submission/end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/photo_submission/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat( /photo_submission/date ,'_', /photo_submission/partner ,'_photo')" nodeset="/photo_submission/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/photo_submission/Ag1">
+      <input ref="/photo_submission/Ag1/logo">
+        <label ref="jr:itext('/photo_submission/Ag1/logo:label')"/>
+      </input>
+      <input ref="/photo_submission/Ag1/cavateco">
+        <label>&lt;br/&gt; &lt;h1&gt;Projecto de Governação Integrada de Terra e Recursos&lt;/h1&gt;&lt;br/&gt; &lt;h2&gt;Uma iniciativa da USAID&lt;/h2&gt;&lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /photo_submission/my_form_name "/>&lt;/span&gt; &lt;br/&gt;</label>
+      </input>
+    </group>
+    <input ref="/photo_submission/intronote">
+      <label>&lt;br/&gt; &lt;span style=&quot;color:#57b055&quot;&gt;<output value=" /photo_submission/my_form_name "/>&lt;/span&gt; &lt;br/&gt; &lt;br/&gt;
+
+Este formulário é utilizado para submeter fotos sobre a implementação do projecto, para fins de publicação e disseminação.
+
+Os fotos podem mostrar actividades do campo ou do escritório, pessoa singulares ou grupos de pessoas.
+
+O foto deve ser 
+
+1) clara
+
+2) mínimo de 1MB 
+
+3) incluir um ou mais dos seguintes - logotipo da USAID, parceiros, pessoas trabalhando juntas, líderes da comunidade, pessoas trabalhando com mapas, GPS ou tablets</label>
+    </input>
+    <input ref="/photo_submission/name_photographer">
+      <label>Escreve o nome e apelido do fotógrafo:</label>
+    </input>
+    <input appearance="no-calendar" ref="/photo_submission/date">
+      <label>Data de captura:</label>
+    </input>
+    <select1 ref="/photo_submission/partner">
+      <label>Parceiro:</label>
+      <item>
+        <label>ORAM</label>
+        <value>oram</value>
+      </item>
+      <item>
+        <label>Hluvukani</label>
+        <value>hluvukani</value>
+      </item>
+      <item>
+        <label>Terra Firma</label>
+        <value>terrafirma</value>
+      </item>
+      <item>
+        <label>Portucel</label>
+        <value>portucel</value>
+      </item>
+      <item>
+        <label>Illovo</label>
+        <value>illovo</value>
+      </item>
+    </select1>
+    <select ref="/photo_submission/topics">
+      <label>Tópicos Relevantes:</label>
+      <item>
+        <label>Gênero</label>
+        <value>gender</value>
+      </item>
+      <item>
+        <label>Biodiversidade / Vida Selvagem</label>
+        <value>biodiversity</value>
+      </item>
+      <item>
+        <label>Florestas</label>
+        <value>forests</value>
+      </item>
+      <item>
+        <label>Alterações Climáticas</label>
+        <value>climate_change</value>
+      </item>
+      <item>
+        <label>Democracia e Governança</label>
+        <value>democracy</value>
+      </item>
+      <item>
+        <label>Agricultura</label>
+        <value>agric</value>
+      </item>
+      <item>
+        <label>Populações Vulneráveis</label>
+        <value>vulnerable</value>
+      </item>
+      <item>
+        <label>Sector Privado</label>
+        <value>private_sector</value>
+      </item>
+      <item>
+        <label>Posse de Terra</label>
+        <value>land_tenure</value>
+      </item>
+      <item>
+        <label>Conflitos e Disputas</label>
+        <value>conflict</value>
+      </item>
+    </select>
+    <input appearance="placement-map" ref="/photo_submission/map_point">
+      <label>Pode indicar a localização no mapa, se for possível</label>
+      <hint>GPS coordinates can only be collected when outside.</hint>
+    </input>
+    <upload mediatype="image/*" ref="/photo_submission/photo">
+      <label>Carregar foto:</label>
+    </upload>
+    <input ref="/photo_submission/caption">
+      <label>Título - Descreva o que está a acontecer na foto, incluindo os nomes das pessoas e da localização:</label>
+    </input>
+    <select1 appearance="minimal" ref="/photo_submission/single_person">
+      <label>É uma pessoa única e claramente identificável?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/photo_submission/name_subject">
+      <label>Nome da pessoa:</label>
+    </input>
+    <select1 ref="/photo_submission/consent">
+      <label>Pediu consentimento para partilhar a foto?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/photo_submission/consent_y_n">
+      <label>A pessoa deu consentimento?</label>
+      <item>
+        <label>Sim</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>Não</label>
+        <value>no</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

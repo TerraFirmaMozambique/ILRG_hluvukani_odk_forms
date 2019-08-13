@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <h:head>
     <h:title>ILRG Hluvukani F - Registrar Parcelas</h:title>
     <model>
@@ -503,7 +503,7 @@ Por favor deslizar para a frente para continuar.</value>
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_F_parcels id="ILRG_Hluvukani_F" version="201905101">
+        <ILRG_Hluvukani_F_parcels id="ILRG_Hluvukani_F" version="201907081">
           <start/>
           <today/>
           <deviceid/>
@@ -1437,7 +1437,7 @@ Por favor deslizar para a frente para continuar.</value>
       <bind calculate=" /ILRG_Hluvukani_F_parcels/rights_holder_number " nodeset="/ILRG_Hluvukani_F_parcels/right_holders_count" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/searchtext" required="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/right_holder" required="true()" type="select1"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/party_role" relevant=" /ILRG_Hluvukani_F_parcels/right_holders/right_holder = 'party_id_key'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/party_role" relevant=" /ILRG_Hluvukani_F_parcels/right_holders/right_holder != '1'" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/right_holders/rep_relation" relevant=" /ILRG_Hluvukani_F_parcels/right_holders/party_role = 'representative_minor' or  /ILRG_Hluvukani_F_parcels/right_holders/party_role = 'representative_absent'" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/new_holder_y_n" required="true()" type="select1"/>
       <bind constraint=".&gt;0" nodeset="/ILRG_Hluvukani_F_parcels/reg_new_holder_number" relevant=" /ILRG_Hluvukani_F_parcels/new_holder_y_n = 'yes'" required="true()" type="int"/>
@@ -1455,10 +1455,10 @@ Por favor deslizar para a frente para continuar.</value>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/age_range" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate_y_n  = 'no'" required="true()" type="select1"/>
       <bind calculate="int((today() -  /ILRG_Hluvukani_F_parcels/add_rights_holders/birthdate ) div 365.24)" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/age_years" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/note_age" readonly="true()" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/age_years &lt; 18 or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'minor'" type="string"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/age_years &gt;= 18 or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'youth' or or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'adult' or  /ILRG_Hluvukani_F_parcels/add_rights_holders/age_range = 'elder'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/rep_relation_1" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1 = 'representative_minor' or  /ILRG_Hluvukani_F_parcels/add_rights_holders/party_role_1 = 'representative_absent'" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_document" required="true()" type="select1"/>
-      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_number" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9()/-]{1,45}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_number" type="string"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_place_issued" type="string"/>
       <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_issued" type="date"/>
       <bind constraint=". &gt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg8/id_date_validity" type="date"/>
@@ -1466,21 +1466,21 @@ Por favor deslizar para a frente para continuar.</value>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/neighbourhood" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/city_block" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/Fg9/house_number" type="string"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n" required="true()" type="select1"/>
       <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/nuit" relevant=" /ILRG_Hluvukani_F_parcels/add_rights_holders/nuit_y_n  = 'yes'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo_note" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/photo" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/signature" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_note" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_front" required="true()" type="binary"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_back" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/id_image_back" required="true()" type="binary"/>
       <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_tel" type="string"/>
       <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_rights_holders/contact_email" type="string"/>
       <bind constraint=".&gt;=1" jr:constraintMsg="Tem que ter pelos menos uma testamunha" nodeset="/ILRG_Hluvukani_F_parcels/witness_number" required="true()" type="int"/>
       <bind calculate=" /ILRG_Hluvukani_F_parcels/witness_number " nodeset="/ILRG_Hluvukani_F_parcels/witnesses_count" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/searchtext_1" required="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/witness" required="true()" type="select1"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/witness_type" relevant=" /ILRG_Hluvukani_F_parcels/witnesses/witness = 'party_id_key'" required="true()" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/witnesses/witness_type" relevant=" /ILRG_Hluvukani_F_parcels/witnesses/witness != '1'" required="true()" type="select1"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/new_witness_y_n" required="true()" type="select1"/>
       <bind constraint=".&gt;0" nodeset="/ILRG_Hluvukani_F_parcels/reg_new_witness_number" relevant=" /ILRG_Hluvukani_F_parcels/new_witness_y_n = 'yes'" required="true()" type="int"/>
       <bind calculate=" /ILRG_Hluvukani_F_parcels/reg_new_witness_number " nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses_count" readonly="true()" type="string"/>
@@ -1493,12 +1493,14 @@ Por favor deslizar para a frente para continuar.</value>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/civil_1" required="true()" type="select1"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg11/birthplace_1" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1" required="true()" type="select1"/>
-      <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'yes'" required="true()" type="date"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'no'" required="true()" type="select1"/>
+      <bind constraint="(. &lt; date('2001-06-01'))" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'yes'" required="true()" type="date"/>
+      <bind constraint=" /ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1 !='minor'" jr:constraintMsg="A pessoa possui menos de 18 anos. Esta pessoa não pode ser testemunho(a), porque ainda é menor.
+
+O(A) enumerador deve voltar para atras e fazer registo duma outra pessoa, maior de que 18 anos." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_y_n_1  = 'no'" required="true()" type="select1"/>
       <bind calculate="int((today() -  /ILRG_Hluvukani_F_parcels/add_witnesses/birthdate_1 ) div 365.24)" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1" type="string"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/note_age_1" readonly="true()" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1 &lt; 18 or  /ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1 = 'minor'" type="string"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/note_age_1" readonly="true()" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/age_years_1 &lt; 1 or  /ILRG_Hluvukani_F_parcels/add_witnesses/age_range_1 = 'minor'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_document_1" required="true()" type="select1"/>
-      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_number_1" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9()/-]{1,45}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_number_1" type="string"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_place_issued_1" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_issued_1" type="date"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg12/id_date_validity_1" type="date"/>
@@ -1506,14 +1508,14 @@ Por favor deslizar para a frente para continuar.</value>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/neighbourhood_1" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/city_block_1" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/Fg13/house_number_1" type="string"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1" required="true()" type="select1"/>
       <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/nuit_1" relevant=" /ILRG_Hluvukani_F_parcels/add_witnesses/nuit_y_n_1  = 'yes'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_note_1" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/photo_1" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/signature_1" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_note_1" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_front_1" required="true()" type="binary"/>
-      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_back_1" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/id_image_back_1" required="true()" type="binary"/>
       <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_tel_1" type="string"/>
       <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/contact_email_1" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_F_parcels/add_witnesses/witness_type" required="true()" type="select1"/>
@@ -1908,7 +1910,7 @@ Por favor deslizar para a frente para continuar.</label>
         <input ref="/ILRG_Hluvukani_F_parcels/right_holders/searchtext">
           <label>Titulares - digite as primeiras letras do nome a ser pesquisada da lista de pessoas já registadas:</label>
         </input>
-        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/right_holders/searchtext , 'block_id_key',  /ILRG_Hluvukani_F_parcels/block_id )" ref="/ILRG_Hluvukani_F_parcels/right_holders/right_holder">
+        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/right_holders/searchtext )" ref="/ILRG_Hluvukani_F_parcels/right_holders/right_holder">
           <label>Selecionar o nome do titular:</label>
           <item>
             <label>party_name</label>
@@ -2478,7 +2480,7 @@ A outra pessoa pode ser registada através deste formulário.&lt;/span&gt;</labe
         <input ref="/ILRG_Hluvukani_F_parcels/witnesses/searchtext_1">
           <label>Testemunhos - digite as primeiras letras do nome a ser pesquisada da lista de pessoas já registadas:</label>
         </input>
-        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/right_holders/searchtext , 'block_id_key',  /ILRG_Hluvukani_F_parcels/block_id )" ref="/ILRG_Hluvukani_F_parcels/witnesses/witness">
+        <select1 appearance="search( /ILRG_Hluvukani_F_parcels/region_id , 'startswith', 'party_name',  /ILRG_Hluvukani_F_parcels/witnesses/searchtext_1 )" ref="/ILRG_Hluvukani_F_parcels/witnesses/witness">
           <label>Selecionar o nome do testemunho(a):</label>
           <item>
             <label>party_name</label>

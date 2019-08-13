@@ -176,7 +176,7 @@ Por favor deslizar para a frente para continuar.</value>
         </translation>
       </itext>
       <instance>
-        <ILRG_Hluvukani_E_parties id="ILRG_Hluvukani_E" version="201905091">
+        <ILRG_Hluvukani_E_parties id="ILRG_Hluvukani_E" version="201906121">
           <start/>
           <today/>
           <deviceid/>
@@ -528,7 +528,7 @@ Por favor deslizar para a frente para continuar.</value>
       <bind calculate="int((today() -  /ILRG_Hluvukani_E_parties/birthdate ) div 365.24)" nodeset="/ILRG_Hluvukani_E_parties/age_years" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/note_age" readonly="true()" relevant=" /ILRG_Hluvukani_E_parties/age_years &lt;18 or  /ILRG_Hluvukani_E_parties/age_range = 'minor'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_document" required="true()" type="select1"/>
-      <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-]{1,25}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_number" type="string"/>
+      <bind constraint="regex(., &quot;^[a-zA-Z0-9()/-]{1,45}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_number" type="string"/>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_place_issued" type="string"/>
       <bind constraint=". &lt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_issued" type="date"/>
       <bind constraint=". &gt; today()" nodeset="/ILRG_Hluvukani_E_parties/Eg5/id_date_validity" type="date"/>
@@ -536,14 +536,14 @@ Por favor deslizar para a frente para continuar.</value>
       <bind constraint="regex(., &quot;^[a-zA-Z0-9. _-éáíóãõúçâôàèê]{1,75}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de numero ou local de emissão do documento não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/neighbourhood" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/city_block" type="string"/>
       <bind constraint="regex(., &quot;^[0-9]{1,5}$&quot;)" jr:constraintMsg="Resposta invalida - Os campos de nacionalidade ou naturalidade não podia incluir um novo paragrafo. Faça a favor de eliminar qualquer linha adicional." nodeset="/ILRG_Hluvukani_E_parties/Eg6/house_number" type="string"/>
-      <bind nodeset="/ILRG_Hluvukani_E_parties/nuit_y_n" type="select1"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/nuit_y_n" required="true()" type="select1"/>
       <bind constraint="regex(.,'[0-9]{9}')" nodeset="/ILRG_Hluvukani_E_parties/nuit" relevant=" /ILRG_Hluvukani_E_parties/nuit_y_n  = 'yes'" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/photo_note" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/photo" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/signature" required="true()" type="binary"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_note" readonly="true()" type="string"/>
       <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_front" required="true()" type="binary"/>
-      <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_back" type="binary"/>
+      <bind nodeset="/ILRG_Hluvukani_E_parties/id_image_back" required="true()" type="binary"/>
       <bind constraint="regex(.,'[0-9]{9}')" jr:constraintMsg="O numero não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_E_parties/contact_tel" type="string"/>
       <bind constraint="regex(., &quot;^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$&quot;)" jr:constraintMsg="O endereço não está no formato correcto. Faça a favor de conferir" nodeset="/ILRG_Hluvukani_E_parties/contact_email" type="string"/>
       <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/ILRG_Hluvukani_E_parties/end" type="dateTime"/>
